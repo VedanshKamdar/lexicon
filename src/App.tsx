@@ -170,13 +170,11 @@ export default function App() {
   );
 
   if (isDesktop) {
+    // grid-rows is as load-bearing as grid-cols here. Left implicit, the single
+    // row is auto-sized and grows to the tallest content, so both panes inherit a
+    // height larger than the viewport, conclude their content fits, and never
+    // scroll — while overflow-hidden clips the excess out of sight.
     return (
-      {/*
-        grid-rows is as load-bearing as grid-cols here. Without it the single
-        implicit row is auto-sized and grows to the tallest content, so the panes
-        inherit a height larger than the viewport, decide their content fits, and
-        never scroll — while overflow-hidden quietly clips the overflow away.
-      */}
       <div className="grid h-[100dvh] grid-cols-[344px_minmax(0,1fr)] grid-rows-[minmax(0,1fr)] overflow-hidden bg-bg">
         <div className="flex min-w-0 flex-col border-r border-rule bg-surface">
           <WordList

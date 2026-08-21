@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exported_at": 1787309920592,
+  "exported_at": 1787309955605,
   "cards": [
     {
       "display": "empirical",
@@ -2283,6 +2283,71 @@
       "deleted_at": null,
       "rootParts": [
         "root"
+      ]
+    },
+    {
+      "display": "extol",
+      "ipa": "/ik-ˈstōl/",
+      "pos": "verb",
+      "simple": "You publicly praise someone's achievements, highlighting how impressive they are.",
+      "formal": "To praise someone or something highly, expressing admiration or glorification.",
+      "connotation": "positive",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "ex-",
+          "meaning": "out, away",
+          "origin": "Latin"
+        },
+        {
+          "part": "tollere",
+          "meaning": "to lift up",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "extoller (n.)",
+        "extolment (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "laud",
+          "note": "Carries a dignified tone, often used in formal commendations or ceremonies."
+        },
+        {
+          "word": "exalt",
+          "note": "Implies raising someone to a higher status, slightly more grandiose than simple praise."
+        },
+        {
+          "word": "praise",
+          "note": "General term applicable in everyday contexts, less ceremonious than laud or exalt."
+        }
+      ],
+      "antonyms": [
+        "criticize",
+        "condemn",
+        "censure"
+      ],
+      "examples": [
+        "The editorial board extolled the scientist's breakthrough, calling it a transformative milestone for renewable energy.",
+        "In his farewell address, the president extolled the nation's democratic ideals, urging citizens to cherish them."
+      ],
+      "mnemonic": "Think of 'ex' plus 'toll' as a toll road that lifts you up, so you lift praise high.",
+      "confusables": [
+        "exult"
+      ],
+      "lemma": "extol",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/extol001.mp3",
+      "low_confidence": false,
+      "created_at": 1787309955604,
+      "updated_at": 1787309955604,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ex-",
+        "tollere"
       ]
     }
   ],
