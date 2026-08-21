@@ -31,6 +31,14 @@ const LIMIT = Number(argOf('limit', '1000'));
 /** Free-tier TPM is the binding constraint; this keeps us just under it. */
 const MIN_GAP_MS = 31_000;
 
+/**
+ * A per-minute 429 asks for a few seconds and is worth waiting out. A 429 that
+ * asks for minutes means the daily token budget is gone, and sleeping through
+ * that would hang an unattended run for hours. Stop instead — the output file
+ * is already written, so tomorrow's run resumes where this one left off.
+ */
+const MAX_WAIT_S = 120;
+
 interface Backup {
   version: number;
   exported_at: number;
@@ -74,6 +82,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 let made = 0;
 let failed = 0;
 let flagged = 0;
+let exhausted = false;
 let tokens = 0;
 const started = Date.now();
 
@@ -146,6 +155,13 @@ ${' '.repeat(36)}⚠ ${problems.join(' | ')}` : '')
     } catch (e) {
       const message = (e as Error).message;
       const wait = retryAfter(message);
+      if (wait !== null && wait > MAX_WAIT_S) {
+        console.log(
+          `${label.padEnd(34)} daily token budget exhausted (asks for ${wait}s)`
+        );
+        exhausted = true;
+        break;
+      }
       if (wait !== null && attempt < 3) {
         console.log(`${label.padEnd(34)} rate limited — waiting ${wait + 2}s`);
         await sleep((wait + 2) * 1000);
@@ -157,6 +173,7 @@ ${' '.repeat(36)}⚠ ${problems.join(' | ')}` : '')
     }
   }
 
+  if (exhausted) break;
   if (index < todo.length - 1) await sleep(MIN_GAP_MS);
 }
 
