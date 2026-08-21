@@ -47,8 +47,9 @@ async function run(word: string) {
   console.log(`  mnemonic: ${card.mnemonic}`);
   console.log(`  confusables: ${card.confusables.join(', ') || '(none)'}`);
 
-  const problems = auditCard(card);
+  const { problems, warnings } = auditCard(card);
   console.log(problems.length ? `\n  ⚠ AUDIT: ${problems.join(' | ')}` : '\n  ✓ audit clean');
+  if (warnings.length) console.log(`  · check: ${warnings.join(' | ')}`);
 }
 
 const words = process.argv.slice(2);

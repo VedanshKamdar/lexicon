@@ -1,70 +1,7 @@
 {
   "version": 1,
-  "exported_at": 1787309955605,
+  "exported_at": 1787310528157,
   "cards": [
-    {
-      "display": "empirical",
-      "ipa": "/im-ˈpir-i-kəl/",
-      "pos": "adjective",
-      "simple": "You rely on what you can see or test rather than just ideas.",
-      "formal": "Originating in or based on observation or experience, and capable of verification by experiment.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "empeirik",
-          "meaning": "experience, observation",
-          "origin": "Greek"
-        },
-        {
-          "part": "-al",
-          "meaning": "pertaining to",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "empiric (adj.)",
-        "empirically (adv.)",
-        "empiricism (n.)"
-      ],
-      "synonyms": [
-        {
-          "word": "observational",
-          "note": "Emphasizes direct watching of phenomena, whereas the term also includes systematic testing."
-        },
-        {
-          "word": "experimental",
-          "note": "Highlights controlled testing environments, while the term also includes any observed data."
-        },
-        {
-          "word": "verifiable",
-          "note": "Specifies that results can be proven true, a stricter requirement than merely being based on observation."
-        }
-      ],
-      "antonyms": [
-        "theoretical",
-        "unverifiable"
-      ],
-      "examples": [
-        "The panel rejected the proposal because its conclusions rested on anecdotal claims rather than empirical evidence.",
-        "Policy makers demanded an empirical assessment before allocating funds to the new renewable‑energy initiative."
-      ],
-      "mnemonic": "Think of an 'empire' built on solid, observed facts—empirical means proven by experience.",
-      "confusables": [],
-      "lemma": "empirical",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/empiri02.mp3",
-      "low_confidence": false,
-      "created_at": 1787305367006,
-      "updated_at": 1787305367006,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "empeirik",
-        "-al"
-      ]
-    },
     {
       "display": "epistemic",
       "ipa": "/ˌe-pə-ˈstē-mik/",
@@ -186,69 +123,6 @@
       "rootParts": [
         "ont-",
         "-logia"
-      ]
-    },
-    {
-      "display": "paradigm",
-      "ipa": "/ˈper-ə-ˌdīm/",
-      "pos": "noun",
-      "simple": "A paradigm is a typical example that others try to copy.",
-      "formal": "A paradigm is a model or pattern that may be copied, often an exceptional example or archetype.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "para-",
-          "meaning": "beside",
-          "origin": "Greek"
-        },
-        {
-          "part": "deiknynai",
-          "meaning": "to show",
-          "origin": "Greek"
-        }
-      ],
-      "family": [
-        "paradigmatic (adj.)",
-        "paradigmatically (adv.)"
-      ],
-      "synonyms": [
-        {
-          "word": "archetype",
-          "note": "Carries a mythic weight, often used for timeless, ideal forms rather than contemporary models."
-        },
-        {
-          "word": "prototype",
-          "note": "Emphasises an early, often rough version used for testing, not necessarily an exemplary standard."
-        },
-        {
-          "word": "exemplar",
-          "note": "Highlights a perfect illustration, usually in moral or educational contexts, rather than a scientific model."
-        }
-      ],
-      "antonyms": [
-        "anomaly",
-        "outlier",
-        "exception"
-      ],
-      "examples": [
-        "The new interdisciplinary journal set a paradigm that other publications quickly emulated, reshaping scholarly communication.",
-        "When the court adopted the landmark ruling as a paradigm, subsequent cases followed its reasoning almost verbatim."
-      ],
-      "mnemonic": "para + deik = beside showing – a side‑by‑side showing becomes a model.",
-      "confusables": [],
-      "lemma": "paradigm",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/paradi03.mp3",
-      "low_confidence": false,
-      "created_at": 1787305469377,
-      "updated_at": 1787305469377,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "para-",
-        "deiknynai"
       ]
     },
     {
@@ -378,131 +252,6 @@
       ]
     },
     {
-      "display": "corollary",
-      "ipa": "/ˈkɔr.əˈlɛri/",
-      "pos": "noun",
-      "simple": "You can see it as a result that follows naturally from something else.",
-      "formal": "A proposition that follows directly from a proved statement with little or no additional proof.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "corōlla",
-          "meaning": "small wreath of flowers",
-          "origin": "Latin"
-        },
-        {
-          "part": "-ārium",
-          "meaning": "a place or thing associated with",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "corollary (adj.)"
-      ],
-      "synonyms": [
-        {
-          "word": "consequence",
-          "note": "Emphasizes causal chain and often implies significance, whereas corollary is a logical deduction."
-        },
-        {
-          "word": "outcome",
-          "note": "Focuses on the end state rather than the logical inference implied by corollary."
-        },
-        {
-          "word": "result",
-          "note": "General term for what follows; less specific to formal reasoning than corollary."
-        }
-      ],
-      "antonyms": [
-        "cause",
-        "reason",
-        "antecedent"
-      ],
-      "examples": [
-        "The rise in urban rents is a corollary of the city’s booming tech sector, squeezing middle‑class families.",
-        "When the committee approved the new policy, a corollary emerged: a sudden surge in paperwork for every department."
-      ],
-      "mnemonic": "Think of 'core' plus 'ally' – the core idea brings an allied result.",
-      "confusables": [],
-      "lemma": "corollary",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coroll04.mp3",
-      "low_confidence": false,
-      "created_at": 1787305617134,
-      "updated_at": 1787305617134,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "corōlla",
-        "-ārium"
-      ]
-    },
-    {
-      "display": "premise",
-      "ipa": "/ˈpre-məs/",
-      "pos": "noun",
-      "simple": "You treat a premise as a starting point that you accept without proof.",
-      "formal": "A proposition assumed beforehand as the basis for an argument or inference.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "prae-",
-          "meaning": "before",
-          "origin": "Latin"
-        },
-        {
-          "part": "mittere",
-          "meaning": "to send",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "premised (adj.)",
-        "premises (n.)",
-        "premise (v.)"
-      ],
-      "synonyms": [
-        {
-          "word": "assumption",
-          "note": "Slightly broader, often used for everyday beliefs rather than formal logical bases."
-        },
-        {
-          "word": "presupposition",
-          "note": "Implies a hidden or implicit condition that underlies reasoning, more technical than premise."
-        },
-        {
-          "word": "postulate",
-          "note": "Carries a more formal, mathematical tone and suggests an axiom rather than a simple starting claim."
-        }
-      ],
-      "antonyms": [
-        "conclusion",
-        "result"
-      ],
-      "examples": [
-        "The editorial argued that the premise of universal basic income rests on the belief that all citizens deserve a safety net, yet ignored fiscal constraints.",
-        "Critics dismissed the series' premise—that a retired detective solves crimes through virtual reality simulations—as implausible and gimmicky."
-      ],
-      "mnemonic": "Think of ‘pre‑miss’: you miss nothing because you place the idea ahead of the argument.",
-      "confusables": [],
-      "lemma": "premise",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/premis01.mp3",
-      "low_confidence": false,
-      "created_at": 1787308947996,
-      "updated_at": 1787308947996,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "prae-",
-        "mittere"
-      ]
-    },
-    {
       "display": "inference",
       "ipa": "/ˈɪn.fər.əns/",
       "pos": "noun",
@@ -561,70 +310,6 @@
       "deleted_at": null,
       "rootParts": [
         "infer"
-      ]
-    },
-    {
-      "display": "conjecture",
-      "ipa": "/kənˈdʒɛktʃər/",
-      "pos": "noun",
-      "simple": "When you form an idea without solid evidence, you are making a conjecture.",
-      "formal": "An inference drawn without sufficient proof or evidence.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "con-",
-          "meaning": "together",
-          "origin": "Latin"
-        },
-        {
-          "part": "jacere",
-          "meaning": "to throw",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "conjecturer (n.)"
-      ],
-      "synonyms": [
-        {
-          "word": "supposition",
-          "note": "Slightly more formal; often used for theoretical ideas rather than casual guesses."
-        },
-        {
-          "word": "surmise",
-          "note": "Conveys a softer, more tentative tone, implying limited evidence."
-        },
-        {
-          "word": "guess",
-          "note": "Colloquial and informal; lacks the intellectual weight of conjecture."
-        }
-      ],
-      "antonyms": [
-        "proof",
-        "certainty",
-        "verification"
-      ],
-      "examples": [
-        "The panel’s report treated the link between the policy and the downturn as pure conjecture, refusing to endorse any definitive claim.",
-        "Mathematicians presented the unproven statement as a conjecture, inviting peers to test its validity."
-      ],
-      "mnemonic": "Think of ‘con‑ject’: to throw ideas together, just as a conjecture tosses together uncertain thoughts.",
-      "confusables": [
-        "conjure"
-      ],
-      "lemma": "conjecture",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/conjec01.mp3",
-      "low_confidence": false,
-      "created_at": 1787309016798,
-      "updated_at": 1787309016798,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "con-",
-        "jacere"
       ]
     },
     {
@@ -754,71 +439,6 @@
       "rootParts": [
         "tauto-",
         "log-"
-      ]
-    },
-    {
-      "display": "syllogism",
-      "ipa": "/ˈsi-lə-ˌji-zəm/",
-      "pos": "noun",
-      "simple": "You notice a syllogism when a conclusion follows logically from two given statements.",
-      "formal": "A deductive argument composed of a major premise, a minor premise, and a conclusion.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "syn-",
-          "meaning": "together",
-          "origin": "Greek"
-        },
-        {
-          "part": "logos",
-          "meaning": "reason, word, reckoning",
-          "origin": "Greek"
-        }
-      ],
-      "family": [
-        "syllogistic (adj.)",
-        "syllogistically (adv.)"
-      ],
-      "synonyms": [
-        {
-          "word": "logic",
-          "note": "Broad discipline of correct reasoning, not limited to a single three‑statement form."
-        },
-        {
-          "word": "ratiocination",
-          "note": "Highly formal term emphasizing the process of logical reasoning rather than the specific structure."
-        },
-        {
-          "word": "reasoning",
-          "note": "General mental activity of drawing conclusions, less precise than the strict three‑premise format."
-        }
-      ],
-      "antonyms": [
-        "irrationality",
-        "absurdity",
-        "incoherence"
-      ],
-      "examples": [
-        "The philosopher presented a syllogism linking human nature to moral duty, convincing the council of his point.",
-        "During the debate, her syllogism reduced the opponent's claim to a trivial premise and exposed its flaw."
-      ],
-      "mnemonic": "Think of a ‘sill + log’: a log placed on a windowsill supports the roof of a logical argument.",
-      "confusables": [
-        "syllogist"
-      ],
-      "lemma": "syllogism",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/s/syllog01.mp3",
-      "low_confidence": false,
-      "created_at": 1787309121278,
-      "updated_at": 1787309121278,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "syn-",
-        "logos"
       ]
     },
     {
@@ -1402,73 +1022,6 @@
       ]
     },
     {
-      "display": "purported",
-      "ipa": "/pərˈpɔːrtɪd/",
-      "pos": "adjective",
-      "simple": "You hear a claim that something is real, but it may only be asserted.",
-      "formal": "Reputed or alleged without proof.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "pur-",
-          "meaning": "forward, forth",
-          "origin": "Latin"
-        },
-        {
-          "part": "port-",
-          "meaning": "to carry",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "purport (v.)",
-        "purport (n.)",
-        "purporting (v.)",
-        "purportedly (adv.)"
-      ],
-      "synonyms": [
-        {
-          "word": "supposed",
-          "note": "Everyday tone, less formal than the target, often used for simple claims."
-        },
-        {
-          "word": "conjectural",
-          "note": "Academic register, suggests speculation based on incomplete evidence."
-        },
-        {
-          "word": "speculative",
-          "note": "Emphasises uncertainty, commonly applied to theories rather than reported facts."
-        }
-      ],
-      "antonyms": [
-        "definite",
-        "explicit",
-        "absolute"
-      ],
-      "examples": [
-        "The report cited a purported link between the policy and rising inflation, though data remained inconclusive.",
-        "Investors balked at the purported benefits of the merger, demanding transparent financial audits."
-      ],
-      "mnemonic": "Think of ‘purport’ as a purpose you claim – it’s what someone says something is, not what’s proven.",
-      "confusables": [
-        "purport"
-      ],
-      "lemma": "purported",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/purpor03.mp3",
-      "low_confidence": false,
-      "created_at": 1787309470873,
-      "updated_at": 1787309470873,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "pur-",
-        "port-"
-      ]
-    },
-    {
       "display": "putative",
       "ipa": "/ˈpyü-tə-tiv/",
       "pos": "adjective",
@@ -2033,129 +1586,6 @@
       ]
     },
     {
-      "display": "attendant",
-      "ipa": "/ə-ˈten-dənt/",
-      "pos": "noun",
-      "simple": "An attendant is someone who helps you by waiting nearby to provide a service.",
-      "formal": "A person who attends to another’s needs, especially by providing a service, or something that accompanies another thing.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "ad-",
-          "meaning": "to, toward",
-          "origin": "Latin"
-        },
-        {
-          "part": "tend-",
-          "meaning": "stretch",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "attendance (n.)",
-        "attend (v.)",
-        "attentive (adj.)",
-        "attending (adj.)"
-      ],
-      "synonyms": [
-        {
-          "word": "escort",
-          "note": "Emphasises protective or ceremonial accompaniment rather than routine service."
-        },
-        {
-          "word": "companion",
-          "note": "Suggests a friendly partner, not necessarily a hired service provider."
-        },
-        {
-          "word": "guide",
-          "note": "Focuses on leading or directing, whereas attendant mainly waits to serve."
-        }
-      ],
-      "antonyms": [],
-      "examples": [
-        "The museum’s ticket counters were staffed by attendants who patiently answered every visitor’s query.",
-        "During the night shift, the gas‑station attendant kept the pumps running smoothly despite the cold."
-      ],
-      "mnemonic": "Think of ‘attend’ plus ‘‑ant’; an attendant is the ant that attends to you.",
-      "confusables": [],
-      "lemma": "attendant",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/attend03.mp3",
-      "low_confidence": false,
-      "created_at": 1787309816310,
-      "updated_at": 1787309816310,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "ad-",
-        "tend-"
-      ]
-    },
-    {
-      "display": "requisite",
-      "ipa": "/ˈre-kwə-zət/",
-      "pos": "adjective",
-      "simple": "You need something that is required for a particular purpose.",
-      "formal": "Needed for a particular purpose; essential or necessary.",
-      "connotation": "neutral",
-      "register": "formal",
-      "roots": [
-        {
-          "part": "re-",
-          "meaning": "again, back",
-          "origin": "Latin"
-        },
-        {
-          "part": "quirere",
-          "meaning": "to seek, ask for",
-          "origin": "Latin"
-        }
-      ],
-      "family": [
-        "requisite (n.)",
-        "requisiteness (n.)"
-      ],
-      "synonyms": [
-        {
-          "word": "essential",
-          "note": "Broadly used in many fields, slightly stronger than merely needed."
-        },
-        {
-          "word": "indispensable",
-          "note": "Conveys that something cannot be done without, more forceful than required."
-        },
-        {
-          "word": "necessary",
-          "note": "Neutral tone, common in everyday language, matches the core meaning."
-        }
-      ],
-      "antonyms": [
-        "unnecessary",
-        "dispensable"
-      ],
-      "examples": [
-        "The investigative panel dismissed the testimony because it lacked the requisite evidence to substantiate the claims.",
-        "Even seasoned diplomats recognize that transparency is a requisite element of any credible peace negotiation."
-      ],
-      "mnemonic": "re‑QUIRE + -site: you must ‘require’ it, so it’s a must‑have.",
-      "confusables": [],
-      "lemma": "requisite",
-      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/r/requis01.mp3",
-      "low_confidence": false,
-      "created_at": 1787309851022,
-      "updated_at": 1787309851022,
-      "user_edited": false,
-      "view_count": 0,
-      "last_viewed_at": null,
-      "deleted_at": null,
-      "rootParts": [
-        "re-",
-        "quirere"
-      ]
-    },
-    {
       "display": "axiomatic",
       "ipa": "/ˌak-sē-ˈma-tik/",
       "pos": "adjective",
@@ -2348,6 +1778,899 @@
       "rootParts": [
         "ex-",
         "tollere"
+      ]
+    },
+    {
+      "display": "venerate",
+      "ipa": "/ˈve-nə-ˌrāt/",
+      "pos": "verb",
+      "simple": "You treat someone or something as deeply worthy of honor and admiration.",
+      "formal": "To regard with reverential respect or to honor with a ritual act of devotion.",
+      "connotation": "positive",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "vener-",
+          "meaning": "to worship, to hold in awe",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "venerator (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "revere",
+          "note": "Similar reverence but often used for abstract ideals or traditions rather than persons."
+        },
+        {
+          "word": "adore",
+          "note": "Stronger emotional intensity, suggesting love as well as respect."
+        },
+        {
+          "word": "worship",
+          "note": "Carries a religious tone, implying devotion to a deity or sacred object."
+        }
+      ],
+      "antonyms": [
+        "disrespect",
+        "desecrate",
+        "scorn"
+      ],
+      "examples": [
+        "The parliamentarians chose to venerate the constitution, invoking its principles in every debate.",
+        "Pilgrims venerate the ancient relic, performing centuries‑old rites before it each sunrise."
+      ],
+      "mnemonic": "VENERate: think of a VENERable priest who rates sacred things highly.",
+      "confusables": [],
+      "lemma": "venerate",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/v/venera05.mp3",
+      "low_confidence": false,
+      "created_at": 1787309989701,
+      "updated_at": 1787309989701,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "vener-"
+      ]
+    },
+    {
+      "display": "lionise",
+      "ipa": "ˈlaɪ.ə.naɪz",
+      "pos": "verb",
+      "simple": "You publicly praise someone as if they were a star.",
+      "formal": "To treat a person with great admiration and public adulation, often exaggerating their importance.",
+      "connotation": "positive",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "lion-",
+          "meaning": "lion",
+          "origin": "French, from Latin leo"
+        },
+        {
+          "part": "-ise",
+          "meaning": "to make or cause to be",
+          "origin": "French -iser"
+        }
+      ],
+      "family": [
+        "lionisation (n.)",
+        "lioniser (v.)"
+      ],
+      "synonyms": [
+        {
+          "word": "glorify",
+          "note": "Emphasises praising achievements, often with a moral or religious tone."
+        },
+        {
+          "word": "idolize",
+          "note": "Conveys a more fanatical, almost worshipful admiration."
+        },
+        {
+          "word": "exalt",
+          "note": "Suggests raising someone to a higher status, sometimes in a formal or ceremonial context."
+        }
+      ],
+      "antonyms": [
+        "disparage",
+        "ignore",
+        "criticise"
+      ],
+      "examples": [
+        "The editorial lionised the scientist, portraying her breakthrough as a turning point for the nation’s climate policy.",
+        "Even critics who disagreed with his methods could not help but lionise his relentless commitment to public service."
+      ],
+      "mnemonic": "Think of a lion’s roar: lion‑ise makes a person’s reputation roar loudly.",
+      "confusables": [],
+      "lemma": "lionise",
+      "audio_url": null,
+      "low_confidence": false,
+      "created_at": 1787310024841,
+      "updated_at": 1787310024841,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "lion-",
+        "-ise"
+      ]
+    },
+    {
+      "display": "espouse",
+      "ipa": "/i-ˈspau̇z/",
+      "pos": "verb",
+      "simple": "You take up a cause and publicly back it as if it were your own belief.",
+      "formal": "To adopt or support a cause, belief, or policy as one's own.",
+      "connotation": "positive",
+      "register": "neutral",
+      "roots": [
+        {
+          "part": "spons-",
+          "meaning": "betrothed, spouse",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "espouser (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "adopt",
+          "note": "Implies formally taking a cause as yours, often with less public advocacy."
+        },
+        {
+          "word": "embrace",
+          "note": "Conveys warm, enthusiastic acceptance rather than strategic support."
+        },
+        {
+          "word": "champion",
+          "note": "Adds a sense of active, vigorous defense, stronger than simple support."
+        }
+      ],
+      "antonyms": [
+        "oppose",
+        "reject",
+        "divorce"
+      ],
+      "examples": [
+        "The editorial board espoused renewable energy policies, urging legislators to prioritize green infrastructure.",
+        "She espoused the philosopher's argument for social equity, weaving it into her campaign speeches."
+      ],
+      "mnemonic": "Think of \"sponsor\" – you back a cause like a sponsor backs a team.",
+      "confusables": [
+        "expose"
+      ],
+      "lemma": "espouse",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/espous02.mp3",
+      "low_confidence": false,
+      "created_at": 1787310059827,
+      "updated_at": 1787310059827,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "spons-"
+      ]
+    },
+    {
+      "display": "endorse",
+      "ipa": "/in-ˈdȯrs/",
+      "pos": "verb",
+      "simple": "You sign your name on the back to approve a check or document.",
+      "formal": "To write one's signature on the reverse side of a check or official document as approval.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "prefix",
+          "meaning": "in, on",
+          "origin": "Latin"
+        },
+        {
+          "part": "root",
+          "meaning": "back",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "endorsable (adj.)",
+        "endorsee (n.)",
+        "endorser (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "advocate",
+          "note": "Implies active public promotion, often beyond mere signing approval."
+        },
+        {
+          "word": "back",
+          "note": "Colloquial, suggests simple approval without the formal signing act."
+        },
+        {
+          "word": "champion",
+          "note": "Conveys enthusiastic, often vocal support, stronger than a simple endorsement."
+        },
+        {
+          "word": "support",
+          "note": "General term for assistance, less specific to signing documents."
+        }
+      ],
+      "antonyms": [
+        "reject",
+        "oppose",
+        "disapprove"
+      ],
+      "examples": [
+        "The board unanimously endorsed the merger, each member signing the agreement's reverse page.",
+        "The celebrity's name was endorsed on the sneaker line, guaranteeing authenticity to consumers."
+      ],
+      "mnemonic": "Think of ‘end’ on the ‘dors’ (back) of a check, so you end by signing the back.",
+      "confusables": [],
+      "lemma": "endorse",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/endors01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310095258,
+      "updated_at": 1787310095258,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "prefix",
+        "root"
+      ]
+    },
+    {
+      "display": "vindicate",
+      "ipa": "/ˈvɪn.dɪ.keɪt/",
+      "pos": "verb",
+      "simple": "When you prove someone’s innocence, you clear their name for everyone.",
+      "formal": "To clear someone of blame by proving they are not guilty, or to substantiate a claim.",
+      "connotation": "positive",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "vindic-",
+          "meaning": "claim, avenge",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "vindication (n.)",
+        "vindictive (adj.)",
+        "vindicator (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "exonerate",
+          "note": "Used chiefly in legal contexts, emphasizes absolving guilt rather than merely supporting a theory."
+        },
+        {
+          "word": "substantiate",
+          "note": "Focuses on providing evidence to support a claim, not necessarily clearing blame."
+        },
+        {
+          "word": "validate",
+          "note": "Conveys official approval or confirmation, often of procedures or data, rather than personal vindication."
+        }
+      ],
+      "antonyms": [
+        "incriminate",
+        "refute",
+        "disprove"
+      ],
+      "examples": [
+        "The appellate court’s ruling vindicated the whistleblower, formally exonerating her of all fraud accusations.",
+        "New archaeological data vindicated the scholar’s hypothesis, confirming that the site predated previously accepted timelines."
+      ],
+      "mnemonic": "Think of a vindicator who claims justice—vindicate means to claim someone’s innocence.",
+      "confusables": [
+        "vindaloo",
+        "vindicator"
+      ],
+      "lemma": "vindicate",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/v/vindic02.mp3",
+      "low_confidence": false,
+      "created_at": 1787310130686,
+      "updated_at": 1787310130686,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "vindic-"
+      ]
+    },
+    {
+      "display": "exalt",
+      "ipa": "/ig-ˈzȯlt/",
+      "pos": "verb",
+      "simple": "You lift someone’s status so they seem more important than before.",
+      "formal": "To raise a person in rank, power, or esteem, often by praising them publicly.",
+      "connotation": "positive",
+      "register": "literary",
+      "roots": [
+        {
+          "part": "ex-",
+          "meaning": "out, away",
+          "origin": "Latin"
+        },
+        {
+          "part": "altus",
+          "meaning": "high",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "exalter (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "elevate",
+          "note": "Slightly more neutral; often used for physical raising as well as status."
+        },
+        {
+          "word": "glorify",
+          "note": "Carries a stronger religious or heroic tone, implying worshipful praise."
+        },
+        {
+          "word": "ennoble",
+          "note": "Emphasises moral improvement and dignity rather than mere rank."
+        },
+        {
+          "word": "celebrate",
+          "note": "Focuses on public festivity and acknowledgment rather than permanent promotion."
+        }
+      ],
+      "antonyms": [
+        "abase",
+        "humiliate"
+      ],
+      "examples": [
+        "The editorial board chose to exalt the scientist’s breakthrough, arguing it reshaped the nation’s research agenda.",
+        "By exalting the poet’s modest verses, the magazine elevated public appreciation for contemporary lyricism."
+      ],
+      "mnemonic": "Think of ex‑ALT: you take something out and put it on a higher ALTitude, making it stand taller.",
+      "confusables": [],
+      "lemma": "exalt",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/exalt001.mp3",
+      "low_confidence": false,
+      "created_at": 1787310166139,
+      "updated_at": 1787310166139,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ex-",
+        "altus"
+      ]
+    },
+    {
+      "display": "commend",
+      "ipa": "/kəˈmend/",
+      "pos": "verb",
+      "simple": "You give praise or trust to someone for their good work.",
+      "formal": "Recommend as worthy of confidence or notice, entrust for care, or praise.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "prefix",
+          "meaning": "with",
+          "origin": "Latin"
+        },
+        {
+          "part": "verb",
+          "meaning": "to send",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "commendable (adj.)",
+        "commendably (adv.)",
+        "commender (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "entrust",
+          "note": "Emphasises handing responsibility over to another"
+        },
+        {
+          "word": "recommend",
+          "note": "Highlights endorsement for approval or notice"
+        },
+        {
+          "word": "trust",
+          "note": "Focuses on confidence placed in someone"
+        }
+      ],
+      "antonyms": [
+        "hold",
+        "keep",
+        "retain"
+      ],
+      "examples": [
+        "The board will commend the scientist for her groundbreaking research.",
+        "The committee commended the proposal, entrusting its implementation to the new director."
+      ],
+      "mnemonic": "com + mandare: ‘com’ means together, ‘mandare’ to send—together you send trust.",
+      "confusables": [
+        "command"
+      ],
+      "lemma": "commend",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/commen03.mp3",
+      "low_confidence": false,
+      "created_at": 1787310211452,
+      "updated_at": 1787310211452,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "prefix",
+        "verb"
+      ]
+    },
+    {
+      "display": "tout",
+      "ipa": "/ˈtau̇t/",
+      "pos": "verb",
+      "simple": "You brag about something to make it sound better than it is.",
+      "formal": "To promote or talk up something, often with excessive enthusiasm; to solicit or persuade importunately; to spy on.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "tuten",
+          "meaning": "to protrude, peer",
+          "origin": "Middle English"
+        },
+        {
+          "part": "tōtian",
+          "meaning": "to stick out",
+          "origin": "Old English"
+        }
+      ],
+      "family": [],
+      "synonyms": [
+        {
+          "word": "hype",
+          "note": "Informal, focuses on exaggerated promotion for commercial gain."
+        },
+        {
+          "word": "glorify",
+          "note": "Literary, emphasizes praise with moral or spiritual overtones."
+        },
+        {
+          "word": "ballyhoo",
+          "note": "Colloquial, implies noisy, sensational advertising."
+        },
+        {
+          "word": "pitch",
+          "note": "Business register, suggests selling or promoting a product."
+        }
+      ],
+      "antonyms": [
+        "knock",
+        "pan"
+      ],
+      "examples": [
+        "The new policy was tout by the administration, promising sweeping reforms that critics later dismissed as empty rhetoric.",
+        "Despite the media touts, the company’s financial results fell short of expectations, sparking investor skepticism."
+      ],
+      "mnemonic": "Think of a trumpet (t‑out) blowing loudly to shout about something, making it sound bigger than it is.",
+      "confusables": [
+        "tut"
+      ],
+      "lemma": "tout",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/tout0002.mp3",
+      "low_confidence": false,
+      "created_at": 1787310286070,
+      "updated_at": 1787310286070,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "tuten",
+        "tōtian"
+      ]
+    },
+    {
+      "display": "disparage",
+      "ipa": "/di-ˈsper-ij/",
+      "pos": "verb",
+      "simple": "You speak in a way that makes someone seem less important or valuable.",
+      "formal": "To speak slightingly about someone or something, thereby belittling its importance or value, or to lower someone or something in rank or reputation.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "prefix",
+          "meaning": "apart, away",
+          "origin": "Old French des-"
+        },
+        {
+          "part": "root",
+          "meaning": "equality of rank, lineage",
+          "origin": "Old French per + -age"
+        }
+      ],
+      "family": [
+        "disparagement (n.)",
+        "disparager (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "belittle",
+          "note": "Soft, everyday tone, often used in casual conversation."
+        },
+        {
+          "word": "denigrate",
+          "note": "Strong, often used in formal or critical contexts."
+        },
+        {
+          "word": "deprecate",
+          "note": "Conveys moral disapproval, often in a formal setting."
+        },
+        {
+          "word": "dismiss",
+          "note": "Suggests rejecting or ignoring, more colloquial."
+        }
+      ],
+      "antonyms": [
+        "acclaim",
+        "exalt",
+        "praise",
+        "glorify"
+      ],
+      "examples": [
+        "The editor’s review disparaged the novel, claiming it lacked depth and originality.",
+        "During the debate, the senator disparaged his opponent’s record, implying it was unworthy of consideration."
+      ],
+      "mnemonic": "dis + parage: you separate someone from the ‘equal line’, taking them down in stature.",
+      "confusables": [],
+      "lemma": "disparage",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/d/dispar01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310353889,
+      "updated_at": 1787310353889,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "prefix",
+        "root"
+      ]
+    },
+    {
+      "display": "vilify",
+      "ipa": "/ˈvi-lə-ˌfī/",
+      "pos": "verb",
+      "simple": "You spread harmful rumors to damage someone’s reputation.",
+      "formal": "To utter slanderous and abusive statements against, defaming a person, or to lower in estimation or importance.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "vil",
+          "meaning": "cheap, vile",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "vilifier (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "malign",
+          "note": "Colloquial tone, often used in everyday speech."
+        },
+        {
+          "word": "defame",
+          "note": "Legal context, focuses on false statements harming reputation."
+        },
+        {
+          "word": "slander",
+          "note": "Emphasises spoken falsehoods, often used in journalism."
+        },
+        {
+          "word": "blacken",
+          "note": "Literary register, implies tarnishing reputation."
+        }
+      ],
+      "antonyms": [
+        "praise",
+        "commend"
+      ],
+      "examples": [
+        "The editorial vilified the politician, accusing him of corruption without evidence.",
+        "Despite the evidence, the media continued to vilify the activist, turning public opinion against him."
+      ],
+      "mnemonic": "vil + ify: turn something vile, make it cheap and harmful.",
+      "confusables": [],
+      "lemma": "vilify",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/v/vilify01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310389520,
+      "updated_at": 1787310389520,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "vil"
+      ]
+    },
+    {
+      "display": "castigate",
+      "ipa": "/ˈka-stə-ˌgāt/",
+      "pos": "verb",
+      "simple": "You criticize someone harshly for their mistakes.",
+      "formal": "To subject to severe punishment, reproof, or criticism.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "casti-",
+          "meaning": "reprimand",
+          "origin": "Latin castis, from Indo-European *ḱHs-ti-"
+        },
+        {
+          "part": "-ig-",
+          "meaning": "drive, impel, lead",
+          "origin": "Indo-European -h2ǵ-"
+        }
+      ],
+      "family": [
+        "castigation (n.)",
+        "castigator (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "berate",
+          "note": "Aggressive, often vocal criticism, usually in a public setting."
+        },
+        {
+          "word": "chastise",
+          "note": "Formal or moral tone, implying correction."
+        },
+        {
+          "word": "lambaste",
+          "note": "Colloquial, intense verbal attack, often with profanity."
+        },
+        {
+          "word": "rebuke",
+          "note": "Slightly softer than lambaste, focuses on moral fault."
+        },
+        {
+          "word": "scold",
+          "note": "Informal, everyday criticism, often directed at children."
+        }
+      ],
+      "antonyms": [
+        "excuse",
+        "pardon",
+        "spare"
+      ],
+      "examples": [
+        "The editorial board castigated the policy for its blatant disregard of environmental standards, demanding immediate reform.",
+        "In his column, the journalist castigated the politician’s evasive answers, labeling them as a betrayal of public trust."
+      ],
+      "mnemonic": "casti‑+‑ig‑: think of a cast‑away boat (cast) that is driven (ig) away from your mistakes.",
+      "confusables": [],
+      "lemma": "castigate",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/castig01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310423343,
+      "updated_at": 1787310423343,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "casti-",
+        "-ig-"
+      ]
+    },
+    {
+      "display": "censure",
+      "ipa": "/ˈsen(t)-ʃər/",
+      "pos": "noun",
+      "simple": "You criticize someone harshly, calling them wrong.",
+      "formal": "A judgment involving condemnation, or an official reprimand, or the act of blaming or condemning sternly.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "cēnsēre",
+          "meaning": "to give an opinion, perform duties of a censor",
+          "origin": "Latin"
+        },
+        {
+          "part": "-ūra",
+          "meaning": "suffix forming nouns of action or state",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "censurer (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "condemnation",
+          "note": "A harsh verdict, often legal, with strong moral judgment."
+        },
+        {
+          "word": "rebuke",
+          "note": "A direct, stern criticism aimed at correcting behavior."
+        },
+        {
+          "word": "reproach",
+          "note": "A mild admonishment, usually personal and emotional."
+        },
+        {
+          "word": "reprimand",
+          "note": "An official censure issued by an authority, formal and documented."
+        }
+      ],
+      "antonyms": [
+        "praise",
+        "commend",
+        "commendation"
+      ],
+      "examples": [
+        "The council issued a formal censure, publicly denouncing the mayor’s policy failures.",
+        "The international community issued a joint censure, condemning the country’s human‑rights abuses."
+      ],
+      "mnemonic": "Censure sounds like \"sense‑ure\"—when you sense a mistake, you urge a formal reprimand.",
+      "confusables": [],
+      "lemma": "censure",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/censur02.mp3",
+      "low_confidence": false,
+      "created_at": 1787310459422,
+      "updated_at": 1787310459422,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "cēnsēre",
+        "-ūra"
+      ]
+    },
+    {
+      "display": "excoriate",
+      "ipa": "/ek-ˈskȯr-ē-ˌāt/",
+      "pos": "verb",
+      "simple": "You harshly criticize someone’s actions, calling them wrong in a very strong way.",
+      "formal": "To criticize scathingly, or to wear off the skin of by abrasion.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "ex-",
+          "meaning": "out",
+          "origin": "Latin"
+        },
+        {
+          "part": "corium",
+          "meaning": "skin, hide",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "excoriation (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "castigate",
+          "note": "Formal, moral condemnation with a sense of discipline."
+        },
+        {
+          "word": "lambaste",
+          "note": "Colloquial, intense verbal attack, often emotional."
+        },
+        {
+          "word": "vituperate",
+          "note": "Literary, harsh verbal abuse, often with profanity."
+        },
+        {
+          "word": "scathe",
+          "note": "Neutral tone, denotes harming or injuring by words."
+        }
+      ],
+      "antonyms": [
+        "praise",
+        "commend"
+      ],
+      "examples": [
+        "The editorial board excoriated the government's policy, declaring it a grave mistake for the nation.",
+        "During the debate, the senator excoriated his opponent, labeling every point as flawed and dishonest."
+      ],
+      "mnemonic": "ex + corium: 'ex' out of the skin—removing the surface, just as you remove faults with harsh words.",
+      "confusables": [],
+      "lemma": "excoriate",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/excori01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310494239,
+      "updated_at": 1787310494239,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ex-",
+        "corium"
+      ]
+    },
+    {
+      "display": "upbraid",
+      "ipa": "/ˌəp-ˈbrād/",
+      "pos": "verb",
+      "simple": "You scold someone harshly for their mistakes, pointing out all faults.",
+      "formal": "To criticize or reproach severely, finding fault with someone’s actions or character.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "ūp",
+          "meaning": "upward",
+          "origin": "Old English"
+        },
+        {
+          "part": "bregdan",
+          "meaning": "to snatch, move suddenly",
+          "origin": "Old English"
+        }
+      ],
+      "family": [
+        "upbraider (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "berate",
+          "note": "Harsh verbal attack, often with a forceful tone."
+        },
+        {
+          "word": "rebuke",
+          "note": "Formal reproach, usually aimed at correcting behaviour."
+        },
+        {
+          "word": "chastise",
+          "note": "Strong criticism, often moral or ethical in nature."
+        }
+      ],
+      "antonyms": [
+        "praise",
+        "commend",
+        "applaud"
+      ],
+      "examples": [
+        "The council upbraid the mayor for ignoring the community’s concerns, demanding accountability.",
+        "During the press conference, the spokesperson upbraid the opposition leader for spreading misinformation, calling for a factual review."
+      ],
+      "mnemonic": "Up + braid: imagine someone braiding your hair while loudly pointing out every flaw in the pattern.",
+      "confusables": [],
+      "lemma": "upbraid",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/number/9upbra01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310528156,
+      "updated_at": 1787310528156,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ūp",
+        "bregdan"
       ]
     }
   ],

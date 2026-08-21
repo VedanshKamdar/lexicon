@@ -83,6 +83,14 @@ confusables — 0 to 3 REAL English words genuinely mistakable for the headword 
 
 ipa — the phonetic transcription if you are confident, otherwise null.
 
+FINAL CHECK — these three are the failures that actually happen. Re-read your answer against them before returning it.
+
+1. Does "simple" contain the headword, or any form of it? Abstract nouns are where this slips: "You treat a premise as a starting point" is a failure. Rewrite so the sentence never needs the word. "A starting point you accept without proof so an argument can begin."
+
+2. Does "family" list the headword itself, in any part of speech? "premise (v.)" on the card for premise, "requisite" on the card for requisite. Remove it. Family means OTHER words from the same root.
+
+3. Does any note contain the phrase "the target", "the term", or "the headword"? Name the actual word instead: "less formal than purported", never "less formal than the target".
+
 Return the JSON object only.`;
 
 export function buildUserMessage(

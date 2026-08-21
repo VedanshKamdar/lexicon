@@ -6,14 +6,22 @@ import type { GeneratedCard } from '../src/schema/card.js';
  * invented antonyms. Shared by the single-word harness and the bulk seeder,
  * because on a long unattended run nobody is reading every card.
  */
-const BAD_NOTE_OPENERS = /^(a synonym|synonym|similar|means|same|common)\b/i;
+const BAD_NOTE_OPENERS = /^(a synonym|synonym|similar to|means the same|the same)\b/i;
 const META_NOTE = /\b(headword|the entry|for completeness|not a single word|this card|the target|the term)\b/i;
 const GENDERED = /\b(his|her|he|she|him)\b/i;
 
 const words = (s: string) => s.trim().split(/\s+/).length;
 
-export function auditCard(card: GeneratedCard): string[] {
+export interface AuditResult {
+  /** Things that are wrong and worth regenerating for. */
+  problems: string[];
+  /** Things a string rule cannot settle — worth a glance, not a rerun. */
+  warnings: string[];
+}
+
+export function auditCard(card: GeneratedCard): AuditResult {
   const problems: string[] = [];
+  const warnings: string[] = [];
   const head = card.display.toLowerCase();
 
   if (words(card.simple) < 6) problems.push(`simple too short (${words(card.simple)}w)`);
@@ -38,7 +46,9 @@ export function auditCard(card: GeneratedCard): string[] {
 
   const stem = head.slice(0, -1);
   for (const c of card.confusables) {
-    if (c.toLowerCase().startsWith(stem)) problems.push(`confusable is a family form: ${c}`);
+    if (c.toLowerCase().startsWith(stem)) {
+      warnings.push(`confusable may be a derived form, check: ${c}`);
+    }
   }
 
   if (card.synonyms.length < 3 || card.synonyms.length > 5) {
@@ -51,12 +61,13 @@ export function auditCard(card: GeneratedCard): string[] {
     else if (META_NOTE.test(s.note)) problems.push(`meta note: ${s.word}`);
   }
   for (const a of card.antonyms) {
-    if (/\s/.test(a.trim())) problems.push(`antonym is a phrase: ${a}`);
+    if (a.trim().split(/\s+/).length > 2) problems.push(`antonym is a phrase: ${a}`);
+    else if (/\s/.test(a.trim())) warnings.push(`two-word antonym: ${a}`);
   }
   if (card.examples.length !== 2) problems.push(`${card.examples.length} examples (want 2)`);
   for (const ex of card.examples) {
     if (words(ex) < 8) problems.push('example too short');
   }
 
-  return problems;
+  return { problems, warnings };
 }

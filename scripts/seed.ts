@@ -142,14 +142,16 @@ for (const [index, word] of todo.entries()) {
       const usage = getLastUsage();
       tokens += usage?.totalTokens ?? 0;
       made++;
-      const problems = auditCard(card);
+      const { problems, warnings } = auditCard(card);
       if (problems.length) flagged++;
       console.log(
         `${label.padEnd(34)} ${problems.length ? 'flag' : 'ok  '} ` +
           `${String(Date.now() - t0).padStart(5)}ms  ${model.replace('openai/', '')}  ` +
           `${usage?.totalTokens ?? '?'} tok` +
           (problems.length ? `
-${' '.repeat(36)}⚠ ${problems.join(' | ')}` : '')
+${' '.repeat(36)}⚠ ${problems.join(' | ')}` : '') +
+          (warnings.length ? `
+${' '.repeat(36)}· ${warnings.join(' | ')}` : '')
       );
       break;
     } catch (e) {
