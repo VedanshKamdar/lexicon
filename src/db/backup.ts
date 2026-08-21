@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { db, markStorageBroken } from './schema';
+import { resetSyncMarker } from './sync';
 import { StoredCardSchema, type StoredCard, type Encounter } from '../schema/card';
 
 const BACKUP_VERSION = 1;
@@ -112,6 +113,10 @@ export async function restoreBackup(json: string): Promise<RestoreResult> {
     markStorageBroken((e as Error).message);
     throw e;
   }
+
+  // A restore brings in cards of unknown vintage, so this device can no longer
+  // assume everything older than its last sync is already on the server.
+  resetSyncMarker();
 
   return result;
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exported_at": 1787310528157,
+  "exported_at": 1787311148780,
   "cards": [
     {
       "display": "epistemic",
@@ -2671,6 +2671,513 @@
       "rootParts": [
         "ūp",
         "bregdan"
+      ]
+    },
+    {
+      "display": "empirical",
+      "ipa": "/im-ˈpir-i-kəl/",
+      "pos": "adjective",
+      "simple": "Based on real observations, not just ideas.",
+      "formal": "Originating from observation or experience, not from theory alone.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "empiric",
+          "meaning": "based on observation",
+          "origin": "Greek empeirikós"
+        },
+        {
+          "part": "-al",
+          "meaning": "pertaining to",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "empiricism (n.)",
+        "empiric (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "experiential",
+          "note": "Emphasises learning through personal experience rather than formal theory."
+        },
+        {
+          "word": "experimental",
+          "note": "Relates specifically to laboratory or systematic testing, not just observation."
+        },
+        {
+          "word": "verifiable",
+          "note": "Highlights the ability to confirm or refute the claim with evidence."
+        },
+        {
+          "word": "demonstrable",
+          "note": "Focuses on showing proof through clear examples or data."
+        }
+      ],
+      "antonyms": [
+        "theoretical",
+        "unverifiable",
+        "unempirical"
+      ],
+      "examples": [
+        "The committee’s conclusions were empirical, grounded in data rather than speculation.",
+        "Policy decisions must be empirical, tested against real-world outcomes before being adopted."
+      ],
+      "mnemonic": "empiric + al: ‘empiric’ means ‘seen’, al means ‘pertaining to’ — so empirical means ‘pertaining to what is seen’.",
+      "confusables": [],
+      "lemma": "empirical",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/empiri02.mp3",
+      "low_confidence": false,
+      "created_at": 1787310708447,
+      "updated_at": 1787310708447,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "empiric",
+        "-al"
+      ]
+    },
+    {
+      "display": "paradigm",
+      "ipa": "/ˈperəˌdaɪm/",
+      "pos": "noun",
+      "simple": "A pattern you can copy to guide your work.",
+      "formal": "A model or pattern that serves as an example or standard, especially an exceptional one.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "para-",
+          "meaning": "beside, alongside",
+          "origin": "Greek"
+        },
+        {
+          "part": "deiknynai",
+          "meaning": "to show",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "paradigmatic (adj.)",
+        "paradigmatically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "archetype",
+          "note": "Classic model, often idealized and revered in culture."
+        },
+        {
+          "word": "prototype",
+          "note": "First experimental example, usually a tangible test version."
+        },
+        {
+          "word": "example",
+          "note": "General instance, less formal, used for illustration."
+        }
+      ],
+      "antonyms": [
+        "counterexample",
+        "anti-pattern"
+      ],
+      "examples": [
+        "The new paradigm of renewable energy reshapes policy debates across the globe.",
+        "Critics argue that the prevailing paradigm in economics ignores inequality and social justice."
+      ],
+      "mnemonic": "para + deiknynai: ‘para’ means beside, ‘deiknynai’ means show—show a model beside you.",
+      "confusables": [],
+      "lemma": "paradigm",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/paradi03.mp3",
+      "low_confidence": false,
+      "created_at": 1787310742308,
+      "updated_at": 1787310742308,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "para-",
+        "deiknynai"
+      ]
+    },
+    {
+      "display": "premise",
+      "ipa": "/ˈpre-məs/",
+      "pos": "noun",
+      "simple": "A basic idea you accept before you start thinking about the rest.",
+      "formal": "A proposition accepted or proved beforehand as the basis for argument or inference.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "prae-",
+          "meaning": "before",
+          "origin": "Latin"
+        },
+        {
+          "part": "mittere",
+          "meaning": "to send",
+          "origin": "Latin"
+        }
+      ],
+      "family": [],
+      "synonyms": [
+        {
+          "word": "assumption",
+          "note": "A belief taken for granted without proof."
+        },
+        {
+          "word": "postulate",
+          "note": "A statement accepted as true for reasoning purposes."
+        },
+        {
+          "word": "presupposition",
+          "note": "An implied premise that must hold for a statement to be true."
+        }
+      ],
+      "antonyms": [
+        "conclusion",
+        "result"
+      ],
+      "examples": [
+        "If the premise of the study is flawed, all subsequent findings are unreliable.",
+        "The premise that the market will grow drives the company’s expansion plans."
+      ],
+      "mnemonic": "prae + mittere: before you send the idea, you set it as the starting point.",
+      "confusables": [],
+      "lemma": "premise",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/premis01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310809039,
+      "updated_at": 1787310809039,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "prae-",
+        "mittere"
+      ]
+    },
+    {
+      "display": "syllogism",
+      "ipa": "/ˈsi-lə-ˌji-zəm/",
+      "pos": "noun",
+      "simple": "You draw a conclusion by linking two earlier statements together.",
+      "formal": "A deductive scheme of a formal argument consisting of a major and a minor premise and a conclusion.",
+      "connotation": "neutral",
+      "register": "neutral",
+      "roots": [
+        {
+          "part": "syn-",
+          "meaning": "with",
+          "origin": "Greek"
+        },
+        {
+          "part": "logizesthai",
+          "meaning": "to calculate",
+          "origin": "Greek"
+        },
+        {
+          "part": "logos",
+          "meaning": "reckoning",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "syllogistic (adj.)",
+        "syllogistically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "logic",
+          "note": "General rule‑making sense; less about formal structure."
+        },
+        {
+          "word": "reasoning",
+          "note": "Broader mental process, can be inductive or deductive."
+        },
+        {
+          "word": "cogency",
+          "note": "Emphasis on persuasive power rather than formal correctness."
+        }
+      ],
+      "antonyms": [
+        "illogic",
+        "incoherence"
+      ],
+      "examples": [
+        "The professor explained that the argument was a syllogism, with each premise leading logically to the conclusion.",
+        "In political speeches, a syllogism can appear subtle, masking a crafty line of reasoning."
+      ],
+      "mnemonic": "syllogism: syn‑ (together) + logos (reason) — a reason that brings two ideas together.",
+      "confusables": [],
+      "lemma": "syllogism",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/s/syllog01.mp3",
+      "low_confidence": false,
+      "created_at": 1787310876506,
+      "updated_at": 1787310876506,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "syn-",
+        "logizesthai",
+        "logos"
+      ]
+    },
+    {
+      "display": "purported",
+      "ipa": "(ˌ)pər-ˈpȯr-təd",
+      "pos": "adjective",
+      "simple": "You claim something as true, even if no proof exists.",
+      "formal": "Reputed, alleged; presented as fact without evidence.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "per",
+          "meaning": "through",
+          "origin": "Latin"
+        },
+        {
+          "part": "port",
+          "meaning": "carry, bring forward",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "purport (v.)",
+        "purporting (v.)",
+        "purportation (n.)",
+        "purportedly (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "supposed",
+          "note": "Common usage, often informal, implying belief without proof."
+        },
+        {
+          "word": "conjectural",
+          "note": "More scholarly tone, suggesting educated guesswork."
+        },
+        {
+          "word": "theoretical",
+          "note": "Emphasises abstract speculation rather than practical evidence."
+        }
+      ],
+      "antonyms": [
+        "explicit",
+        "definite",
+        "absolute"
+      ],
+      "examples": [
+        "The report was purported to be based on primary sources, yet no documents were provided.",
+        "The council claimed the policy was purportedly designed to protect consumers, but critics argued it favored industry interests."
+      ],
+      "mnemonic": "pur + port: a claim that carries you forward, but may not be true.",
+      "confusables": [],
+      "lemma": "purported",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/purpor03.mp3",
+      "low_confidence": false,
+      "created_at": 1787310909754,
+      "updated_at": 1787310909754,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "per",
+        "port"
+      ]
+    },
+    {
+      "display": "attendant",
+      "ipa": "/ə-ˈten-dənt/",
+      "pos": "noun",
+      "simple": "You serve customers by waiting on them and handling their needs.",
+      "formal": "A person who attends another to perform a service, especially an employee who waits on customers.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "verb",
+          "meaning": "to wait on",
+          "origin": "Latin attendere"
+        }
+      ],
+      "family": [
+        "attendance (n.)",
+        "attend (v.)"
+      ],
+      "synonyms": [
+        {
+          "word": "accompanying",
+          "note": "neutral tone, describes any companion, not limited to service"
+        },
+        {
+          "word": "concomitant",
+          "note": "formal register, implies simultaneous occurrence"
+        },
+        {
+          "word": "escort",
+          "note": "active, protective sense, often used for safety"
+        },
+        {
+          "word": "guide",
+          "note": "suggests leading or directing, less formal than attendant"
+        }
+      ],
+      "antonyms": [
+        "customer",
+        "visitor"
+      ],
+      "examples": [
+        "The gas‑station attendant handled each rush hour queue with practiced calm.",
+        "During the gala, the attendant at the front desk ensured no guest was left unattended."
+      ],
+      "mnemonic": "attend + ant: the ant that attends keeps things moving.",
+      "confusables": [],
+      "lemma": "attendant",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/attend03.mp3",
+      "low_confidence": false,
+      "created_at": 1787310943441,
+      "updated_at": 1787310943441,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "verb"
+      ]
+    },
+    {
+      "display": "denigrate",
+      "ipa": "/ˈde-ni-ˌgrāt/",
+      "pos": "verb",
+      "simple": "You spread false or harsh comments to damage someone’s good name.",
+      "formal": "To attack the reputation of someone or something, or to deny their importance or validity.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "de-",
+          "meaning": "away from",
+          "origin": "Latin"
+        },
+        {
+          "part": "nigr-",
+          "meaning": "black",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "denigration (n.)",
+        "denigrative (adj.)",
+        "denigrator (n.)",
+        "denigratory (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "belittle",
+          "note": "Softens the attack, implying a small, unimportant value."
+        },
+        {
+          "word": "disparage",
+          "note": "Conveys a sharper judgment, often public and harsh."
+        },
+        {
+          "word": "deprecate",
+          "note": "Suggests a formal or intellectual criticism, less personal."
+        }
+      ],
+      "antonyms": [
+        "acclaim",
+        "praise",
+        "exalt"
+      ],
+      "examples": [
+        "The editorial denigrated the new policy, claiming it would harm the economy.",
+        "The council’s report denigrated the artist’s work, arguing it lacked originality."
+      ],
+      "mnemonic": "de‑ + nigr‑: to turn black; a blackened reputation is one that has been denigrated.",
+      "confusables": [],
+      "lemma": "denigrate",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/d/denigr01.mp3",
+      "low_confidence": false,
+      "created_at": 1787311011016,
+      "updated_at": 1787311011016,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "de-",
+        "nigr-"
+      ]
+    },
+    {
+      "display": "corollary",
+      "ipa": "/ˈkɔːr-ə-ˌler-ē/",
+      "pos": "noun",
+      "simple": "It is a result that follows directly from something already proven.",
+      "formal": "A proposition inferred immediately from a proved proposition with little or no additional proof.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "corolla",
+          "meaning": "small wreath of flowers",
+          "origin": "Latin"
+        },
+        {
+          "part": "-ārium",
+          "meaning": "suffix forming nouns indicating a place or related thing",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "corollary (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "consequence",
+          "note": "Slightly broader; can refer to any result, not only logical inference."
+        },
+        {
+          "word": "outcome",
+          "note": "More neutral in tone and often used for practical results, not formal proofs."
+        },
+        {
+          "word": "aftereffect",
+          "note": "Emphasises a lingering effect rather than an immediate logical deduction."
+        }
+      ],
+      "antonyms": [
+        "cause",
+        "antecedent"
+      ],
+      "examples": [
+        "The theorem’s corollary clarified how the algorithm would scale when applied to larger datasets, prompting immediate policy revisions.",
+        "When the committee approved the budget increase, a corollary emerged: the need for additional staffing to manage the expanded program."
+      ],
+      "mnemonic": "Picture a small wreath (corolla) looping around a proof, delivering the final result.",
+      "confusables": [],
+      "lemma": "corollary",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coroll04.mp3",
+      "low_confidence": false,
+      "created_at": 1787311148774,
+      "updated_at": 1787311148774,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "corolla",
+        "-ārium"
       ]
     }
   ],

@@ -7,6 +7,16 @@ const LAST_SYNC_KEY = 'lexicon:lastSync';
 /** Thrown when the deployment has no Turso credentials — local-only, not a fault. */
 export class SyncDisabled extends Error {}
 
+/**
+ * Forget how far this device has synced, so the next sync reconsiders every
+ * card. Needed after a restore: imported cards keep the updated_at they were
+ * generated with, which is usually older than this device's last sync, so they
+ * would never qualify as "changed since" and would silently never be pushed.
+ */
+export function resetSyncMarker(): void {
+  localStorage.removeItem(LAST_SYNC_KEY);
+}
+
 export function lastSyncAt(): number {
   const raw = localStorage.getItem(LAST_SYNC_KEY);
   return raw ? Number(raw) || 0 : 0;

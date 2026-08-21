@@ -27,6 +27,13 @@ const argOf = (name: string, fallback: string) => {
 const LIST = argOf('list', 'scripts/cat-words.txt');
 const OUT = argOf('out', 'lexicon-seed.json');
 const LIMIT = Number(argOf('limit', '1000'));
+/*
+ * Falling back to the smaller model is right for an interactive lookup — a
+ * card now beats an error. For bulk generation it is wrong: the run silently
+ * produces weaker cards, and the weaker model also fails strict decoding
+ * outright. With --no-fallback the seeder waits for the good model instead.
+ */
+const NO_FALLBACK = args.includes('--no-fallback');
 
 /** Free-tier TPM is the binding constraint; this keeps us just under it. */
 const MIN_GAP_MS = 31_000;
@@ -90,7 +97,8 @@ for (const [index, word] of todo.entries()) {
   const label = `[${index + 1}/${todo.length}] ${word}`;
 
   let attempt = 0;
-  while (attempt < 3) {
+  const maxAttempts = NO_FALLBACK ? 5 : 3;
+  while (attempt < maxAttempts) {
     attempt++;
     const t0 = Date.now();
     try {
@@ -109,7 +117,7 @@ for (const [index, word] of todo.entries()) {
       const { card, model } = await generateCard(word, gathered.raw, undefined, {
         apiKey: process.env.GROQ_API_KEY!,
         model: process.env.GROQ_MODEL ?? 'openai/gpt-oss-120b',
-        fallbackModel: process.env.GROQ_FALLBACK_MODEL,
+        fallbackModel: NO_FALLBACK ? undefined : process.env.GROQ_FALLBACK_MODEL,
       });
 
       const now = Date.now();
@@ -156,7 +164,9 @@ ${' '.repeat(36)}· ${warnings.join(' | ')}` : '')
       break;
     } catch (e) {
       const message = (e as Error).message;
-      const wait = retryAfter(message);
+      let wait = retryAfter(message);
+      // A bare "Rate limited." with no time carries no hint; wait one TPM window.
+      if (wait === null && /rate limited/i.test(message)) wait = 60;
       if (wait !== null && wait > MAX_WAIT_S) {
         console.log(
           `${label.padEnd(34)} daily token budget exhausted (asks for ${wait}s)`
@@ -164,7 +174,7 @@ ${' '.repeat(36)}· ${warnings.join(' | ')}` : '')
         exhausted = true;
         break;
       }
-      if (wait !== null && attempt < 3) {
+      if (wait !== null && attempt < maxAttempts) {
         console.log(`${label.padEnd(34)} rate limited — waiting ${wait + 2}s`);
         await sleep((wait + 2) * 1000);
         continue;
