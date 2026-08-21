@@ -1,9 +1,9 @@
 # Lexicon
 
-A personal vocabulary book for CAT VARC preparation. Type a word, get a card that
-teaches discrimination rather than definition — synonyms carry notes explaining
-how each differs, roots come from real etymology, examples read like editorial
-prose. Local-first: every card is stored in the browser and works offline.
+A personal vocabulary book. Type a word, get a card that teaches discrimination
+rather than definition — synonyms carry notes explaining how each differs, roots
+come from real etymology, examples read like editorial prose. Local-first: every
+card is stored in the browser and works offline.
 
 Single user. No accounts, no auth.
 

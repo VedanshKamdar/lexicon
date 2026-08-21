@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
         manifest: {
           name: 'Lexicon',
           short_name: 'Lexicon',
-          description: 'A personal vocabulary book for CAT preparation.',
+          description: 'A personal vocabulary book.',
           start_url: '/',
           scope: '/',
           display: 'standalone',
