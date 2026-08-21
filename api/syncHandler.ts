@@ -23,6 +23,20 @@ const SCHEMA = [
   `CREATE INDEX IF NOT EXISTS encounters_captured_at ON encounters (captured_at)`,
 ];
 
+/**
+ * Statements per batch. The first sync from a seeded device pushes the entire
+ * book at once — a few hundred rows — and one oversized batch failing would
+ * take the whole sync with it. Chunking keeps each round trip bounded.
+ */
+const BATCH_SIZE = 50;
+
+function chunk<T>(items: T[], size: number): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < items.length; i += size)
+    out.push(items.slice(i, i + size));
+  return out;
+}
+
 let client: Client | null = null;
 let ready: Promise<void> | null = null;
 
@@ -68,7 +82,7 @@ function encounterId(e: IncomingEncounter): string {
 
 export async function handleSync(
   body: unknown,
-  headers: Record<string, string | undefined>
+  headers: Record<string, string | undefined>,
 ): Promise<HandlerResult> {
   const secret = process.env.APP_SECRET;
   if (secret && headers['x-app-secret'] !== secret) {
@@ -76,12 +90,21 @@ export async function handleSync(
   }
 
   if (!process.env.TURSO_DATABASE_URL) {
-    return { status: 503, body: { error: 'Sync is not configured on this deployment.' } };
+    return {
+      status: 503,
+      body: { error: 'Sync is not configured on this deployment.' },
+    };
   }
 
-  const input = body as { since?: unknown; cards?: unknown; encounters?: unknown };
+  const input = body as {
+    since?: unknown;
+    cards?: unknown;
+    encounters?: unknown;
+  };
   const since = typeof input?.since === 'number' ? input.since : 0;
-  const cards = Array.isArray(input?.cards) ? (input.cards as IncomingCard[]) : [];
+  const cards = Array.isArray(input?.cards)
+    ? (input.cards as IncomingCard[])
+    : [];
   const encounters = Array.isArray(input?.encounters)
     ? (input.encounters as IncomingEncounter[])
     : [];
@@ -93,31 +116,40 @@ export async function handleSync(
     if (cards.length) {
       // Newest write wins. The WHERE clause makes this safe to replay: pushing a
       // stale card can never overwrite a fresher one already on the server.
-      await db.batch(
-        cards.map((card) => ({
-          sql: `INSERT INTO cards (lemma, updated_at, deleted_at, payload)
+      for (const batch of chunk(cards, BATCH_SIZE)) {
+        await db.batch(
+          batch.map((card) => ({
+            sql: `INSERT INTO cards (lemma, updated_at, deleted_at, payload)
                 VALUES (?, ?, ?, ?)
                 ON CONFLICT(lemma) DO UPDATE SET
                   updated_at = excluded.updated_at,
                   deleted_at = excluded.deleted_at,
                   payload    = excluded.payload
                 WHERE excluded.updated_at > cards.updated_at`,
-          args: [card.lemma, card.updated_at, card.deleted_at ?? null, JSON.stringify(card)],
-        })),
-        'write'
-      );
+            args: [
+              card.lemma,
+              card.updated_at,
+              card.deleted_at ?? null,
+              JSON.stringify(card),
+            ],
+          })),
+          'write',
+        );
+      }
     }
 
     if (encounters.length) {
-      await db.batch(
-        encounters.map((e) => ({
-          sql: `INSERT INTO encounters (id, lemma, captured_at, payload)
+      for (const batch of chunk(encounters, BATCH_SIZE)) {
+        await db.batch(
+          batch.map((e) => ({
+            sql: `INSERT INTO encounters (id, lemma, captured_at, payload)
                 VALUES (?, ?, ?, ?)
                 ON CONFLICT(id) DO NOTHING`,
-          args: [encounterId(e), e.lemma, e.captured_at, JSON.stringify(e)],
-        })),
-        'write'
-      );
+            args: [encounterId(e), e.lemma, e.captured_at, JSON.stringify(e)],
+          })),
+          'write',
+        );
+      }
     }
 
     const changedCards = await db.execute({
@@ -134,10 +166,15 @@ export async function handleSync(
       body: {
         now: Date.now(),
         cards: changedCards.rows.map((r) => JSON.parse(String(r.payload))),
-        encounters: changedEncounters.rows.map((r) => JSON.parse(String(r.payload))),
+        encounters: changedEncounters.rows.map((r) =>
+          JSON.parse(String(r.payload)),
+        ),
       },
     };
   } catch (e) {
-    return { status: 502, body: { error: `Sync failed: ${(e as Error).message}` } };
+    return {
+      status: 502,
+      body: { error: `Sync failed: ${(e as Error).message}` },
+    };
   }
 }
