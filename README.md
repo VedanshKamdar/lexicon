@@ -62,6 +62,8 @@ npm run typecheck                        # app + serverless code
 npx tsx scripts/try.ts obdurate sanction # run the pipeline on words, with a quality audit
 npx tsx scripts/mw.ts                    # verify the Merriam-Webster keys
 npx tsx scripts/sync.ts                  # verify Turso and the merge rules
+npx tsx scripts/peek.ts                  # show what is actually in the remote store
+npx tsx scripts/cleanup-probe.ts         # remove rows left by sync.ts self-tests
 npx tsx scripts/seed.ts                  # bulk-generate the CAT word list
 npx tsx scripts/icons.ts                 # regenerate PWA icons
 ```
