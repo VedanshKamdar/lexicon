@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "exported_at": 1787305617134,
+  "cards": [
+    {
+      "display": "empirical",
+      "ipa": "/im-ˈpir-i-kəl/",
+      "pos": "adjective",
+      "simple": "You rely on what you can see or test rather than just ideas.",
+      "formal": "Originating in or based on observation or experience, and capable of verification by experiment.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "empeirik",
+          "meaning": "experience, observation",
+          "origin": "Greek"
+        },
+        {
+          "part": "-al",
+          "meaning": "pertaining to",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "empiric (adj.)",
+        "empirically (adv.)",
+        "empiricism (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "observational",
+          "note": "Emphasizes direct watching of phenomena, whereas the term also includes systematic testing."
+        },
+        {
+          "word": "experimental",
+          "note": "Highlights controlled testing environments, while the term also includes any observed data."
+        },
+        {
+          "word": "verifiable",
+          "note": "Specifies that results can be proven true, a stricter requirement than merely being based on observation."
+        }
+      ],
+      "antonyms": [
+        "theoretical",
+        "unverifiable"
+      ],
+      "examples": [
+        "The panel rejected the proposal because its conclusions rested on anecdotal claims rather than empirical evidence.",
+        "Policy makers demanded an empirical assessment before allocating funds to the new renewable‑energy initiative."
+      ],
+      "mnemonic": "Think of an 'empire' built on solid, observed facts—empirical means proven by experience.",
+      "confusables": [],
+      "lemma": "empirical",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/empiri02.mp3",
+      "low_confidence": false,
+      "created_at": 1787305367006,
+      "updated_at": 1787305367006,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "empeirik",
+        "-al"
+      ]
+    },
+    {
+      "display": "epistemic",
+      "ipa": "/ˌe-pə-ˈstē-mik/",
+      "pos": "adjective",
+      "simple": "It describes anything that deals with what you know or understand.",
+      "formal": "Relating to knowledge or the process of knowing.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "epist-",
+          "meaning": "knowledge, skill",
+          "origin": "Greek"
+        },
+        {
+          "part": "-ic",
+          "meaning": "pertaining to",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "epistemically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "cognitive",
+          "note": "Emphasises mental processes like perception and reasoning, broader than pure knowledge."
+        },
+        {
+          "word": "intellectual",
+          "note": "Conveys a higher‑order, often scholarly, kind of knowledge rather than everyday knowing."
+        },
+        {
+          "word": "mental",
+          "note": "A more general term for anything occurring in the mind, not limited to knowledge."
+        }
+      ],
+      "antonyms": [
+        "physical",
+        "bodily",
+        "unconscious"
+      ],
+      "examples": [
+        "The epistemic assumptions underlying the study were questioned by several reviewers.",
+        "Policy makers ignored the epistemic gaps in the data, leading to flawed decisions."
+      ],
+      "mnemonic": "Think of ‘epist‑’ like an epistle delivering knowledge, and ‘‑ic’ meaning ‘about’—so epistemic is about knowledge.",
+      "confusables": [],
+      "lemma": "epistemic",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/e/episte01.mp3",
+      "low_confidence": false,
+      "created_at": 1787305401112,
+      "updated_at": 1787305401112,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "epist-",
+        "-ic"
+      ]
+    },
+    {
+      "display": "ontology",
+      "ipa": "/än-ˈtä-lə-jē/",
+      "pos": "noun",
+      "simple": "It is the study of what exists and how things are related.",
+      "formal": "A branch of metaphysics that investigates the nature and relations of being.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "ont-",
+          "meaning": "being",
+          "origin": "Greek"
+        },
+        {
+          "part": "-logia",
+          "meaning": "study, science",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "ontologist (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "metaphysics",
+          "note": "Broader discipline that includes ontology but also addresses other fundamental questions."
+        },
+        {
+          "word": "essentialism",
+          "note": "Focuses on the intrinsic nature of things, narrower than the full scope of ontology."
+        },
+        {
+          "word": "realism",
+          "note": "Philosophical stance about the existence of entities, not a systematic study like ontology."
+        }
+      ],
+      "antonyms": [
+        "nihilism",
+        "nonexistence"
+      ],
+      "examples": [
+        "The journal's special issue on ontology examined how different scientific fields define the entities they study.",
+        "Debates over digital ontology question whether virtual objects possess the same ontological status as physical ones."
+      ],
+      "mnemonic": "Think of \"onto\" (on to) + \"logy\" (study) – a study that puts you onto the nature of being.",
+      "confusables": [],
+      "lemma": "ontology",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/o/ontolo03.mp3",
+      "low_confidence": false,
+      "created_at": 1787305434996,
+      "updated_at": 1787305434996,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ont-",
+        "-logia"
+      ]
+    },
+    {
+      "display": "paradigm",
+      "ipa": "/ˈper-ə-ˌdīm/",
+      "pos": "noun",
+      "simple": "A paradigm is a typical example that others try to copy.",
+      "formal": "A paradigm is a model or pattern that may be copied, often an exceptional example or archetype.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "para-",
+          "meaning": "beside",
+          "origin": "Greek"
+        },
+        {
+          "part": "deiknynai",
+          "meaning": "to show",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "paradigmatic (adj.)",
+        "paradigmatically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "archetype",
+          "note": "Carries a mythic weight, often used for timeless, ideal forms rather than contemporary models."
+        },
+        {
+          "word": "prototype",
+          "note": "Emphasises an early, often rough version used for testing, not necessarily an exemplary standard."
+        },
+        {
+          "word": "exemplar",
+          "note": "Highlights a perfect illustration, usually in moral or educational contexts, rather than a scientific model."
+        }
+      ],
+      "antonyms": [
+        "anomaly",
+        "outlier",
+        "exception"
+      ],
+      "examples": [
+        "The new interdisciplinary journal set a paradigm that other publications quickly emulated, reshaping scholarly communication.",
+        "When the court adopted the landmark ruling as a paradigm, subsequent cases followed its reasoning almost verbatim."
+      ],
+      "mnemonic": "para + deik = beside showing – a side‑by‑side showing becomes a model.",
+      "confusables": [],
+      "lemma": "paradigm",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/paradi03.mp3",
+      "low_confidence": false,
+      "created_at": 1787305469377,
+      "updated_at": 1787305469377,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "para-",
+        "deiknynai"
+      ]
+    },
+    {
+      "display": "dichotomy",
+      "ipa": "/dī-ˈkä-tə-mē/",
+      "pos": "noun",
+      "simple": "You notice a clear split into two opposing ideas or categories.",
+      "formal": "A division of something into two mutually exclusive or contradictory parts.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "dichótomos",
+          "meaning": "cut in half",
+          "origin": "Greek"
+        },
+        {
+          "part": "-ia",
+          "meaning": "state or condition",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "dichotomous (adj.)",
+        "dichotomously (adv.)",
+        "dichotomize (v.)"
+      ],
+      "synonyms": [
+        {
+          "word": "contradiction",
+          "note": "Implies direct conflict, often logical, whereas dichotomy emphasizes a structured two‑way split."
+        },
+        {
+          "word": "paradox",
+          "note": "Highlights a single statement that seems self‑contradictory, not necessarily a two‑part division."
+        },
+        {
+          "word": "polarity",
+          "note": "Refers to opposite extremes, but lacks the implication of a deliberate categorisation."
+        }
+      ],
+      "antonyms": [
+        "unity",
+        "integration",
+        "synthesis"
+      ],
+      "examples": [
+        "The policy debate revealed a stark dichotomy between fiscal restraint and expansive social spending, leaving legislators forced to choose.",
+        "Readers often mistake the media's portrayal of climate change as a dichotomy of skeptics versus scientists, ignoring the nuanced middle ground."
+      ],
+      "mnemonic": "‘Dicho‑’ sounds like ‘divide’, reminding you it’s a split into two parts.",
+      "confusables": [],
+      "lemma": "dichotomy",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/d/dichot07.mp3",
+      "low_confidence": false,
+      "created_at": 1787305548063,
+      "updated_at": 1787305548063,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "dichótomos",
+        "-ia"
+      ]
+    },
+    {
+      "display": "antithesis",
+      "ipa": "/an-ˈti-thə-səs/",
+      "pos": "noun",
+      "simple": "You find a concept that is completely different from the one you are discussing.",
+      "formal": "The direct opposite; a thing or idea that is entirely contrary to another.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "anti-",
+          "meaning": "against",
+          "origin": "Greek"
+        },
+        {
+          "part": "tithenai",
+          "meaning": "to set",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "antithetical (adj.)",
+        "antithetically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "opposite",
+          "note": "General term for any contrary item; less formal than antithesis."
+        },
+        {
+          "word": "contrary",
+          "note": "Often used for attitudes or opinions; carries a slightly weaker sense of opposition."
+        },
+        {
+          "word": "antipode",
+          "note": "Geographical or metaphorical extreme opposite; more technical and less rhetorical."
+        }
+      ],
+      "antonyms": [
+        "synonym",
+        "equivalence"
+      ],
+      "examples": [
+        "The policy’s emphasis on deregulation stood as an antithesis to the government’s previous interventionist stance, prompting heated debate in parliament.",
+        "In the editorial, the author presented the antithesis of consumerism by championing minimalist living as a societal remedy."
+      ],
+      "mnemonic": "Think of anti‑ + ‘tithenai’ (to set): set against each other, so they become opposites.",
+      "confusables": [],
+      "lemma": "antithesis",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/antith01.mp3",
+      "low_confidence": false,
+      "created_at": 1787305581809,
+      "updated_at": 1787305581809,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "anti-",
+        "tithenai"
+      ]
+    },
+    {
+      "display": "corollary",
+      "ipa": "/ˈkɔr.əˈlɛri/",
+      "pos": "noun",
+      "simple": "You can see it as a result that follows naturally from something else.",
+      "formal": "A proposition that follows directly from a proved statement with little or no additional proof.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "corōlla",
+          "meaning": "small wreath of flowers",
+          "origin": "Latin"
+        },
+        {
+          "part": "-ārium",
+          "meaning": "a place or thing associated with",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "corollary (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "consequence",
+          "note": "Emphasizes causal chain and often implies significance, whereas corollary is a logical deduction."
+        },
+        {
+          "word": "outcome",
+          "note": "Focuses on the end state rather than the logical inference implied by corollary."
+        },
+        {
+          "word": "result",
+          "note": "General term for what follows; less specific to formal reasoning than corollary."
+        }
+      ],
+      "antonyms": [
+        "cause",
+        "reason",
+        "antecedent"
+      ],
+      "examples": [
+        "The rise in urban rents is a corollary of the city’s booming tech sector, squeezing middle‑class families.",
+        "When the committee approved the new policy, a corollary emerged: a sudden surge in paperwork for every department."
+      ],
+      "mnemonic": "Think of 'core' plus 'ally' – the core idea brings an allied result.",
+      "confusables": [],
+      "lemma": "corollary",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/coroll04.mp3",
+      "low_confidence": false,
+      "created_at": 1787305617134,
+      "updated_at": 1787305617134,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "corōlla",
+        "-ārium"
+      ]
+    }
+  ],
+  "encounters": []
+}

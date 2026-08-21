@@ -1,0 +1,8 @@
+# Kept out of the deployment: none of this is needed at runtime.
+scripts/
+lexicon-seed.json
+lexicon-*.json
+dist/
+.env
+.env.*
+!.env.example

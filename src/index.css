@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/*
+ * Fonts are self-hosted rather than loaded from Google. The design calls for
+ * Source Serif 4 and IBM Plex Mono; pulling those from a CDN would put a network
+ * request in front of first paint and break the offline promise the PWA makes.
+ * Bundled, they are precached by the service worker like any other asset.
+ */
+@import "@fontsource-variable/source-serif-4";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --ink: #15171b;
+  --ink2: #565c65;
+  --ink3: #8d949d;
+  --rule: #e3e6ea;
+  --rule2: #eef0f3;
+  --accent: #3a4f7a;
+  --soft: #eceff6;
+  --warn: #7c4a2b;
+  --warnsoft: #f6efe8;
+  --on-accent: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1013;
+    --surface: #171a1f;
+    --ink: #e9ebee;
+    --ink2: #9ba2ab;
+    --ink3: #6a717a;
+    --rule: #272b32;
+    --rule2: #1f232a;
+    --accent: #93a8d6;
+    --soft: #1b212c;
+    --warn: #c69172;
+    --warnsoft: #241c16;
+    --on-accent: #0e1013;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink2);
+  --color-ink-3: var(--ink3);
+  --color-rule: var(--rule);
+  --color-rule-2: var(--rule2);
+  --color-accent: var(--accent);
+  --color-soft: var(--soft);
+  --color-warn: var(--warn);
+  --color-warnsoft: var(--warnsoft);
+  --color-on-accent: var(--on-accent);
+
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;
+  --font-sans: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+@layer base {
+  input,
+  textarea,
+  button,
+  select {
+    font: inherit;
+  }
+  /* Never below 16px on form controls: iOS Safari auto-zooms under that. */
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* The design hides scrollbars inside its panes; the content is the affordance. */
+.lxsc::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.lxsc {
+  scrollbar-width: none;
+}
+
+@keyframes lxshimmer {
+  0% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0.35;
+  }
+}
+
+.lxshimmer {
+  animation: lxshimmer 1.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lxshimmer {
+    animation: none;
+    opacity: 0.6;
+  }
+}
