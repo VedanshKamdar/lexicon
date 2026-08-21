@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exported_at": 1787305617134,
+  "exported_at": 1787309712833,
   "cards": [
     {
       "display": "empirical",
@@ -437,6 +437,1473 @@
       "rootParts": [
         "corōlla",
         "-ārium"
+      ]
+    },
+    {
+      "display": "premise",
+      "ipa": "/ˈpre-məs/",
+      "pos": "noun",
+      "simple": "You treat a premise as a starting point that you accept without proof.",
+      "formal": "A proposition assumed beforehand as the basis for an argument or inference.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "prae-",
+          "meaning": "before",
+          "origin": "Latin"
+        },
+        {
+          "part": "mittere",
+          "meaning": "to send",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "premised (adj.)",
+        "premises (n.)",
+        "premise (v.)"
+      ],
+      "synonyms": [
+        {
+          "word": "assumption",
+          "note": "Slightly broader, often used for everyday beliefs rather than formal logical bases."
+        },
+        {
+          "word": "presupposition",
+          "note": "Implies a hidden or implicit condition that underlies reasoning, more technical than premise."
+        },
+        {
+          "word": "postulate",
+          "note": "Carries a more formal, mathematical tone and suggests an axiom rather than a simple starting claim."
+        }
+      ],
+      "antonyms": [
+        "conclusion",
+        "result"
+      ],
+      "examples": [
+        "The editorial argued that the premise of universal basic income rests on the belief that all citizens deserve a safety net, yet ignored fiscal constraints.",
+        "Critics dismissed the series' premise—that a retired detective solves crimes through virtual reality simulations—as implausible and gimmicky."
+      ],
+      "mnemonic": "Think of ‘pre‑miss’: you miss nothing because you place the idea ahead of the argument.",
+      "confusables": [],
+      "lemma": "premise",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/premis01.mp3",
+      "low_confidence": false,
+      "created_at": 1787308947996,
+      "updated_at": 1787308947996,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "prae-",
+        "mittere"
+      ]
+    },
+    {
+      "display": "inference",
+      "ipa": "/ˈɪn.fər.əns/",
+      "pos": "noun",
+      "simple": "You draw a conclusion based on evidence you already have.",
+      "formal": "A conclusion or judgment reached by reasoning from known facts or premises.",
+      "connotation": "neutral",
+      "register": "neutral",
+      "roots": [
+        {
+          "part": "infer",
+          "meaning": "to bring in, deduce",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "infer (v.)",
+        "inferential (adj.)",
+        "inferentially (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "deduction",
+          "note": "Emphasises logical reasoning from general principles to specific conclusions, often more formal than inference."
+        },
+        {
+          "word": "conclusion",
+          "note": "A broader term that can refer to any end result, not necessarily derived through logical reasoning."
+        },
+        {
+          "word": "induction",
+          "note": "Starts from specific observations to form a general rule, the opposite direction of typical inference."
+        }
+      ],
+      "antonyms": [
+        "guess",
+        "speculation",
+        "supposition"
+      ],
+      "examples": [
+        "The editorial board’s inference that the policy will worsen inequality rests on decades of socioeconomic data.",
+        "Scientists accepted the existence of the particle only by inference, as no instrument could detect it directly."
+      ],
+      "mnemonic": "Think of ‘in‑fer‑ence’: you ‘fer’ (carry) evidence in, then draw a conclusion.",
+      "confusables": [
+        "interference",
+        "infraction"
+      ],
+      "lemma": "inference",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/i/infere01.mp3",
+      "low_confidence": false,
+      "created_at": 1787308982281,
+      "updated_at": 1787308982281,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "infer"
+      ]
+    },
+    {
+      "display": "conjecture",
+      "ipa": "/kənˈdʒɛktʃər/",
+      "pos": "noun",
+      "simple": "When you form an idea without solid evidence, you are making a conjecture.",
+      "formal": "An inference drawn without sufficient proof or evidence.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "con-",
+          "meaning": "together",
+          "origin": "Latin"
+        },
+        {
+          "part": "jacere",
+          "meaning": "to throw",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "conjecturer (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "supposition",
+          "note": "Slightly more formal; often used for theoretical ideas rather than casual guesses."
+        },
+        {
+          "word": "surmise",
+          "note": "Conveys a softer, more tentative tone, implying limited evidence."
+        },
+        {
+          "word": "guess",
+          "note": "Colloquial and informal; lacks the intellectual weight of conjecture."
+        }
+      ],
+      "antonyms": [
+        "proof",
+        "certainty",
+        "verification"
+      ],
+      "examples": [
+        "The panel’s report treated the link between the policy and the downturn as pure conjecture, refusing to endorse any definitive claim.",
+        "Mathematicians presented the unproven statement as a conjecture, inviting peers to test its validity."
+      ],
+      "mnemonic": "Think of ‘con‑ject’: to throw ideas together, just as a conjecture tosses together uncertain thoughts.",
+      "confusables": [
+        "conjure"
+      ],
+      "lemma": "conjecture",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/conjec01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309016798,
+      "updated_at": 1787309016798,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "con-",
+        "jacere"
+      ]
+    },
+    {
+      "display": "axiom",
+      "ipa": "/ˈæk.si.əm/",
+      "pos": "noun",
+      "simple": "A statement you accept as true without needing proof, to build an argument.",
+      "formal": "A self‑evident principle or proposition accepted as true for the purpose of reasoning.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "axi-",
+          "meaning": "worth, valued",
+          "origin": "Greek"
+        },
+        {
+          "part": "-ma",
+          "meaning": "resultative noun suffix",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "axiomatic (adj.)",
+        "axiomatically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "postulate",
+          "note": "Used chiefly in formal theories and may require proof, unlike a self‑evident axiom."
+        },
+        {
+          "word": "maxim",
+          "note": "A brief moral rule, applying to conduct rather than abstract logical foundations."
+        },
+        {
+          "word": "truism",
+          "note": "Conveys that the statement is obvious, sometimes implying it is overly obvious or redundant."
+        }
+      ],
+      "antonyms": [
+        "exception",
+        "contradiction",
+        "counterexample"
+      ],
+      "examples": [
+        "The committee treated the axiom of free speech as untouchable, refusing any amendment that might curb it.",
+        "Economists often invoke the axiom that markets tend toward equilibrium, even when data suggest short‑term volatility."
+      ],
+      "mnemonic": "Think of an ‘ax‑I‑am’: an ax that chops away doubt because the truth stands obvious.",
+      "confusables": [
+        "axion",
+        "axial"
+      ],
+      "lemma": "axiom",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/axiom001.mp3",
+      "low_confidence": false,
+      "created_at": 1787309051477,
+      "updated_at": 1787309051477,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "axi-",
+        "-ma"
+      ]
+    },
+    {
+      "display": "tautology",
+      "ipa": "/tɔːˈtɒlədʒi/",
+      "pos": "noun",
+      "simple": "When you repeat the same idea in different words, you are being redundant.",
+      "formal": "A statement that repeats an idea unnecessarily or is true solely because of its logical structure.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "tauto-",
+          "meaning": "same",
+          "origin": "Greek"
+        },
+        {
+          "part": "log-",
+          "meaning": "word, speech",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "tautological (adj.)",
+        "tautologically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "redundancy",
+          "note": "Common everyday term, less precise and carries a neutral tone."
+        },
+        {
+          "word": "pleonasm",
+          "note": "Technical linguistic label, often used in scholarly critique of style."
+        },
+        {
+          "word": "verbosity",
+          "note": "Emphasises wordiness rather than logical necessity, slightly more negative."
+        }
+      ],
+      "antonyms": [
+        "conciseness",
+        "brevity",
+        "terseness"
+      ],
+      "examples": [
+        "The editorial’s relentless tautology—repeating that the policy will improve outcomes—added nothing to the argument.",
+        "In formal logic, \"P or not P\" is a classic tautology, true under every possible interpretation."
+      ],
+      "mnemonic": "Imagine a rope pulled taut around a log; it can’t stretch, so the same shape repeats.",
+      "confusables": [],
+      "lemma": "tautology",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/tautol04.mp3",
+      "low_confidence": false,
+      "created_at": 1787309086241,
+      "updated_at": 1787309086241,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "tauto-",
+        "log-"
+      ]
+    },
+    {
+      "display": "syllogism",
+      "ipa": "/ˈsi-lə-ˌji-zəm/",
+      "pos": "noun",
+      "simple": "You notice a syllogism when a conclusion follows logically from two given statements.",
+      "formal": "A deductive argument composed of a major premise, a minor premise, and a conclusion.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "syn-",
+          "meaning": "together",
+          "origin": "Greek"
+        },
+        {
+          "part": "logos",
+          "meaning": "reason, word, reckoning",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "syllogistic (adj.)",
+        "syllogistically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "logic",
+          "note": "Broad discipline of correct reasoning, not limited to a single three‑statement form."
+        },
+        {
+          "word": "ratiocination",
+          "note": "Highly formal term emphasizing the process of logical reasoning rather than the specific structure."
+        },
+        {
+          "word": "reasoning",
+          "note": "General mental activity of drawing conclusions, less precise than the strict three‑premise format."
+        }
+      ],
+      "antonyms": [
+        "irrationality",
+        "absurdity",
+        "incoherence"
+      ],
+      "examples": [
+        "The philosopher presented a syllogism linking human nature to moral duty, convincing the council of his point.",
+        "During the debate, her syllogism reduced the opponent's claim to a trivial premise and exposed its flaw."
+      ],
+      "mnemonic": "Think of a ‘sill + log’: a log placed on a windowsill supports the roof of a logical argument.",
+      "confusables": [
+        "syllogist"
+      ],
+      "lemma": "syllogism",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/s/syllog01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309121278,
+      "updated_at": 1787309121278,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "syn-",
+        "logos"
+      ]
+    },
+    {
+      "display": "heuristic",
+      "ipa": "/hyu̇-ˈri-stik/",
+      "pos": "adjective",
+      "simple": "It uses trial-and-error methods to help you learn or solve a problem.",
+      "formal": "Involving or serving as an aid to learning, discovery, or problem‑solving by experimental and especially trial‑and‑error methods.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "heur-",
+          "meaning": "to discover, find",
+          "origin": "Greek"
+        },
+        {
+          "part": "-istic",
+          "meaning": "pertaining to",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "heuristically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "experimental",
+          "note": "Emphasises testing and observation rather than systematic design."
+        },
+        {
+          "word": "exploratory",
+          "note": "Conveys a sense of open‑ended investigation, not just trial‑and‑error."
+        },
+        {
+          "word": "trial-and-error",
+          "note": "Directly describes the method, but is more informal and less adjectival."
+        }
+      ],
+      "antonyms": [
+        "algorithmic",
+        "methodical"
+      ],
+      "examples": [
+        "The research team adopted a heuristic approach, tweaking variables until the model began to align with observed data.",
+        "Faced with an unprecedented market shift, the firm relied on heuristic strategies rather than rigid, pre‑programmed formulas."
+      ],
+      "mnemonic": "Heur‑ sounds like “huer,” reminding you of a discoverer who keeps trying new paths.",
+      "confusables": [],
+      "lemma": "heuristic",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/h/heuris01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309155583,
+      "updated_at": 1787309155583,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "heur-",
+        "-istic"
+      ]
+    },
+    {
+      "display": "teleology",
+      "ipa": "/ˌtēˈlēˈäləˌjē/",
+      "pos": "noun",
+      "simple": "It is the idea that natural things act because they have a purpose built into them.",
+      "formal": "A doctrine that explains phenomena by appealing to final causes or inherent purposes.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "tele-",
+          "meaning": "end, purpose",
+          "origin": "Greek"
+        },
+        {
+          "part": "-logia",
+          "meaning": "study, discourse",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "teleologist (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "finalism",
+          "note": "Emphasises belief in final causes, often used in philosophical contexts rather than scientific."
+        },
+        {
+          "word": "purposefulness",
+          "note": "Conveys a sense of intentional design, but is broader and can describe human actions as well."
+        },
+        {
+          "word": "goal‑directedness",
+          "note": "Highlights the orientation toward an end, typically applied to behavior rather than abstract doctrine."
+        }
+      ],
+      "antonyms": [
+        "mechanism",
+        "materialism",
+        "reductionism"
+      ],
+      "examples": [
+        "The committee’s report leaned heavily on teleology, arguing that the organism’s complexity points to an intrinsic purpose.",
+        "Critics dismissed the philosopher’s teleology as a relic, insisting that modern science favors mechanistic explanations."
+      ],
+      "mnemonic": "Think of \"tele\" (far) + \"logy\" (study) as studying why things aim far toward a purpose.",
+      "confusables": [],
+      "lemma": "teleology",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/teleo02m.mp3",
+      "low_confidence": false,
+      "created_at": 1787309189595,
+      "updated_at": 1787309189595,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "tele-",
+        "-logia"
+      ]
+    },
+    {
+      "display": "determinism",
+      "ipa": "/di-ˈtər-mə-ˌni-zəm/",
+      "pos": "noun",
+      "simple": "You think every event follows inevitably from earlier causes and natural laws.",
+      "formal": "The doctrine that all actions and events are fixed by prior causes or natural laws.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "de-",
+          "meaning": "away, down",
+          "origin": "Latin"
+        },
+        {
+          "part": "termin-",
+          "meaning": "boundary, limit",
+          "origin": "Latin"
+        },
+        {
+          "part": "-ism",
+          "meaning": "doctrine or system",
+          "origin": "Greek via Latin"
+        }
+      ],
+      "family": [
+        "determinist (n.)",
+        "determinist (adj.)",
+        "deterministic (adj.)",
+        "deterministically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "fatalism",
+          "note": "Emphasises resignation to fate rather than scientific causality."
+        },
+        {
+          "word": "predeterminism",
+          "note": "Specifies that outcomes are set before they occur, often with theological overtones."
+        },
+        {
+          "word": "inevitability",
+          "note": "Focuses on the certainty of outcomes, not the underlying causal mechanism."
+        }
+      ],
+      "antonyms": [
+        "free will",
+        "indeterminacy",
+        "randomness"
+      ],
+      "examples": [
+        "The panel argued that determinism leaves little room for moral responsibility, citing neuroscience findings on decision‑making.",
+        "Critics of determinism claim that social policy must assume some degree of human agency to be effective."
+      ],
+      "mnemonic": "de‑ + termin (limit) + –ism: think of a ‘limit set down’ that fixes everything.",
+      "confusables": [
+        "determinant",
+        "determinacy",
+        "determinate"
+      ],
+      "lemma": "determinism",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/d/determ15.mp3",
+      "low_confidence": false,
+      "created_at": 1787309223938,
+      "updated_at": 1787309223938,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "de-",
+        "termin-",
+        "-ism"
+      ]
+    },
+    {
+      "display": "reductive",
+      "ipa": "/ri-ˈdək-tiv/",
+      "pos": "adjective",
+      "simple": "It explains complex ideas by breaking them down into simpler parts.",
+      "formal": "Pertaining to reduction or to a reductionist approach that simplifies phenomena.",
+      "connotation": "neutral",
+      "register": "neutral",
+      "roots": [
+        {
+          "part": "re-",
+          "meaning": "back",
+          "origin": "Latin"
+        },
+        {
+          "part": "duct-",
+          "meaning": "lead",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "reductively (adv.)",
+        "reductiveness (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "reductionist",
+          "note": "Emphasizes simplifying complex systems, often overlooking contextual factors, and carries a more academic tone."
+        },
+        {
+          "word": "simplistic",
+          "note": "Implies an overly easy explanation, usually with a mildly negative judgment about depth."
+        },
+        {
+          "word": "parsimonious",
+          "note": "Suggests extreme simplicity, especially in theoretical models, and sounds more technical than reductive."
+        }
+      ],
+      "antonyms": [
+        "holistic",
+        "comprehensive",
+        "expansive"
+      ],
+      "examples": [
+        "The columnist's reductive analysis dismissed the cultural nuances, reducing the debate to mere economics.",
+        "Policy makers offered a reductive solution, cutting funding across the board without addressing underlying causes."
+      ],
+      "mnemonic": "Think of a 're-duct' pulling ideas back, so the concept is pulled down to basics.",
+      "confusables": [],
+      "lemma": "reductive",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/r/reduct09.mp3",
+      "low_confidence": false,
+      "created_at": 1787309259782,
+      "updated_at": 1787309259782,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "re-",
+        "duct-"
+      ]
+    },
+    {
+      "display": "normative",
+      "ipa": "/ˈnȯr-mə-tiv/",
+      "pos": "adjective",
+      "simple": "It describes ideas that set the standard for how things should be done.",
+      "formal": "Relating to, determining, or prescribing standards or norms.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "norm",
+          "meaning": "rule, standard",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "normatively (adv.)",
+        "normativeness (n.)",
+        "normativity (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "standard",
+          "note": "Broad, widely accepted benchmark; less about prescribing than describing common practice."
+        },
+        {
+          "word": "prescriptive",
+          "note": "Specifically directs how things ought to be; stronger directive tone than normative."
+        },
+        {
+          "word": "received",
+          "note": "Implying commonly accepted conventions; carries historical weight rather than active enforcement."
+        }
+      ],
+      "antonyms": [
+        "descriptive",
+        "relativistic"
+      ],
+      "examples": [
+        "The committee's normative framework forced every subsidiary to align its reporting with the new sustainability metrics.",
+        "Critics argue that the report's normative assumptions marginalize alternative economic models that deviate from conventional growth targets."
+      ],
+      "mnemonic": "Think of 'norm' + 'active' – actively setting the rule you follow.",
+      "confusables": [],
+      "lemma": "normative",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/normat01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309294361,
+      "updated_at": 1787309294361,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "norm"
+      ]
+    },
+    {
+      "display": "prescriptive",
+      "ipa": "/pri-ˈskrip-tiv/",
+      "pos": "adjective",
+      "simple": "It tells you exactly how language should be used according to established rules.",
+      "formal": "Intended to prescribe rules or determined by long‑standing custom.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "prae-",
+          "meaning": "before",
+          "origin": "Latin"
+        },
+        {
+          "part": "script",
+          "meaning": "write",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "prescriptively (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "conventional",
+          "note": "Often used for accepted practices, less about formal rule‑making than ordinary habit."
+        },
+        {
+          "word": "customary",
+          "note": "Emphasises long‑standing social habit, softer tone than strict rule‑setting."
+        },
+        {
+          "word": "traditional",
+          "note": "Highlights inheritance from past generations, not necessarily codified as official directives."
+        }
+      ],
+      "antonyms": [
+        "unconventional",
+        "nontraditional"
+      ],
+      "examples": [
+        "The style guide’s prescriptive recommendations forced journalists to abandon colloquialisms in favor of standardized terminology.",
+        "Because the legal code is prescriptive, judges must apply its centuries‑old provisions without improvisation."
+      ],
+      "mnemonic": "pre‑ (before) + script (write) → write rules before anyone speaks.",
+      "confusables": [
+        "descriptive",
+        "prescription"
+      ],
+      "lemma": "prescriptive",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/prescr05.mp3",
+      "low_confidence": false,
+      "created_at": 1787309329103,
+      "updated_at": 1787309329103,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "prae-",
+        "script"
+      ]
+    },
+    {
+      "display": "descriptive",
+      "ipa": "/di-ˈskrip-tiv/",
+      "pos": "adjective",
+      "simple": "You give a clear picture by stating exactly how something appears.",
+      "formal": "Presenting observations that detail the characteristics of a subject without prescribing or emoting.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "de-",
+          "meaning": "away, down",
+          "origin": "Latin"
+        },
+        {
+          "part": "scrib-",
+          "meaning": "to write",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "descriptively (adv.)",
+        "descriptiveness (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "faithful",
+          "note": "Emphasizes accuracy and loyalty to the original details, often used for translations."
+        },
+        {
+          "word": "realistic",
+          "note": "Conveys a matter‑of‑fact tone, focusing on true‑to‑life representation rather than idealisation."
+        },
+        {
+          "word": "graphic",
+          "note": "Highlights vivid, often stark detail, sometimes implying visual intensity beyond plain description."
+        }
+      ],
+      "antonyms": [
+        "vague",
+        "nondescript",
+        "ambiguous"
+      ],
+      "examples": [
+        "The report offered a descriptive analysis of the river's chemical composition, citing each measured pollutant.",
+        "Her descriptive account of the protest captured every shouted slogan and the color of the banners."
+      ],
+      "mnemonic": "Think of 'scribe' writing details; descriptive writes what you see.",
+      "confusables": [],
+      "lemma": "descriptive",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/d/descri04.mp3",
+      "low_confidence": false,
+      "created_at": 1787309363778,
+      "updated_at": 1787309363778,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "de-",
+        "scrib-"
+      ]
+    },
+    {
+      "display": "methodology",
+      "ipa": "/ˌmeθəˈdɒlədʒi/",
+      "pos": "noun",
+      "simple": "It is the organized way you investigate a problem or conduct research.",
+      "formal": "A systematic collection of methods, rules, and principles governing inquiry in a discipline.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "methodus",
+          "meaning": "method, way of proceeding",
+          "origin": "Latin"
+        },
+        {
+          "part": "-logia",
+          "meaning": "study of, science of",
+          "origin": "Greek"
+        }
+      ],
+      "family": [
+        "methodological (adj.)",
+        "methodologically (adv.)",
+        "method (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "procedure",
+          "note": "Focuses on the step‑by‑step actions rather than the underlying theory."
+        },
+        {
+          "word": "approach",
+          "note": "Emphasizes a broader perspective or philosophy, not just the detailed steps."
+        },
+        {
+          "word": "system",
+          "note": "Highlights interrelated components and formal structure beyond individual methods."
+        }
+      ],
+      "antonyms": [
+        "improvisation",
+        "ad‑hoc"
+      ],
+      "examples": [
+        "The panel praised the university's new research methodology, noting its rigor and reproducibility.",
+        "Policy analysts criticized the outdated methodology that ignored digital data streams."
+      ],
+      "mnemonic": "Method + -ology: picture a ‘method’ manual that teaches the science of how you work.",
+      "confusables": [],
+      "lemma": "methodology",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/m/method13.mp3",
+      "low_confidence": false,
+      "created_at": 1787309398407,
+      "updated_at": 1787309398407,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "methodus",
+        "-logia"
+      ]
+    },
+    {
+      "display": "ostensible",
+      "ipa": "/ä-ˈsten(t)-sə-bəl/",
+      "pos": "adjective",
+      "simple": "It looks real, but you might discover it's only for show.",
+      "formal": "Intended to be seen or believed, though not necessarily true.",
+      "connotation": "negative",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "ob-",
+          "meaning": "toward, facing, against",
+          "origin": "Latin"
+        },
+        {
+          "part": "tendere",
+          "meaning": "to extend outward, stretch",
+          "origin": "Latin"
+        },
+        {
+          "part": "-bilis",
+          "meaning": "capable of",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "ostension (n.)",
+        "ostensively (adv.)",
+        "ostentatious (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "apparent",
+          "note": "Conveys genuine visibility, whereas ostensible may hide doubt about truth."
+        },
+        {
+          "word": "seeming",
+          "note": "Focuses on surface impression, lacking the implication of intentional display."
+        },
+        {
+          "word": "presumed",
+          "note": "Suggests belief based on inference rather than visible evidence, differing in source of certainty."
+        }
+      ],
+      "antonyms": [
+        "genuine",
+        "authentic"
+      ],
+      "examples": [
+        "The government’s ostensible commitment to transparency masked a series of undisclosed budget reallocations.",
+        "Readers were reassured by the ostensible unanimity of the panel, even as dissent simmered behind closed doors."
+      ],
+      "mnemonic": "OSTEN‑ sounds like ‘show‑then’, plus -sible (able) → able to be shown, so it means appearing true.",
+      "confusables": [
+        "ostentatious",
+        "ostensibly"
+      ],
+      "lemma": "ostensible",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/o/ostens01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309434349,
+      "updated_at": 1787309434349,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ob-",
+        "tendere",
+        "-bilis"
+      ]
+    },
+    {
+      "display": "purported",
+      "ipa": "/pərˈpɔːrtɪd/",
+      "pos": "adjective",
+      "simple": "You hear a claim that something is real, but it may only be asserted.",
+      "formal": "Reputed or alleged without proof.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "pur-",
+          "meaning": "forward, forth",
+          "origin": "Latin"
+        },
+        {
+          "part": "port-",
+          "meaning": "to carry",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "purport (v.)",
+        "purport (n.)",
+        "purporting (v.)",
+        "purportedly (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "supposed",
+          "note": "Everyday tone, less formal than the target, often used for simple claims."
+        },
+        {
+          "word": "conjectural",
+          "note": "Academic register, suggests speculation based on incomplete evidence."
+        },
+        {
+          "word": "speculative",
+          "note": "Emphasises uncertainty, commonly applied to theories rather than reported facts."
+        }
+      ],
+      "antonyms": [
+        "definite",
+        "explicit",
+        "absolute"
+      ],
+      "examples": [
+        "The report cited a purported link between the policy and rising inflation, though data remained inconclusive.",
+        "Investors balked at the purported benefits of the merger, demanding transparent financial audits."
+      ],
+      "mnemonic": "Think of ‘purport’ as a purpose you claim – it’s what someone says something is, not what’s proven.",
+      "confusables": [
+        "purport"
+      ],
+      "lemma": "purported",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/purpor03.mp3",
+      "low_confidence": false,
+      "created_at": 1787309470873,
+      "updated_at": 1787309470873,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "pur-",
+        "port-"
+      ]
+    },
+    {
+      "display": "putative",
+      "ipa": "/ˈpyü-tə-tiv/",
+      "pos": "adjective",
+      "simple": "Something that people generally accept as true, even if it isn’t proven.",
+      "formal": "Widely accepted or supposed to be the case, though not definitively established.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "put-",
+          "meaning": "think",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "putatively (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "presumed",
+          "note": "Implies a logical inference, often used in legal or formal contexts, slightly stronger than merely supposed."
+        },
+        {
+          "word": "ostensible",
+          "note": "Emphasizes outward appearance that may mask a different reality, carrying a hint of skepticism."
+        },
+        {
+          "word": "apparent",
+          "note": "Focuses on what seems clear to the senses, suggesting visibility rather than mere supposition."
+        }
+      ],
+      "antonyms": [
+        "actual",
+        "real",
+        "genuine"
+      ],
+      "examples": [
+        "The putative founder of the movement never actually existed, yet his ideas shaped policy.",
+        "Journalists cited the putative source, but the identity remained unverified."
+      ],
+      "mnemonic": "Think of 'put' as placing an idea in your mind – putative means thought‑to‑be.",
+      "confusables": [],
+      "lemma": "putative",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/putati01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309505131,
+      "updated_at": 1787309505131,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "put-"
+      ]
+    },
+    {
+      "display": "notional",
+      "ipa": "/ˈnō-ʃənəl/",
+      "pos": "adjective",
+      "simple": "It describes something that exists only in ideas, not in physical reality.",
+      "formal": "Existing only in thought or theory, not having concrete reality.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "notio",
+          "meaning": "idea, concept",
+          "origin": "Latin"
+        },
+        {
+          "part": "-al",
+          "meaning": "pertaining to",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "notionality (n.)",
+        "notionally (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "theoretical",
+          "note": "Used in academic discourse, emphasizes systematic speculation over casual imagination."
+        },
+        {
+          "word": "abstract",
+          "note": "Focuses on ideas stripped of concrete details, often in art or philosophy."
+        },
+        {
+          "word": "conceptual",
+          "note": "Highlights mental frameworks or categories, less about fanciful imagination than structured thought."
+        }
+      ],
+      "antonyms": [
+        "concrete",
+        "real",
+        "actual"
+      ],
+      "examples": [
+        "The policy's notional benefits, while attractive on paper, remain untested in any real market.",
+        "Economists warned that the notional growth projections ignored underlying structural weaknesses."
+      ],
+      "mnemonic": "Notional sounds like 'notion' + al, reminding you it’s about notions, not things.",
+      "confusables": [],
+      "lemma": "notional",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/notion02.mp3",
+      "low_confidence": false,
+      "created_at": 1787309539867,
+      "updated_at": 1787309539867,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "notio",
+        "-al"
+      ]
+    },
+    {
+      "display": "tentative",
+      "ipa": "/ˈten-tə-tiv/",
+      "pos": "adjective",
+      "simple": "You have a plan that could still change as new information arrives.",
+      "formal": "Not fully worked out or developed and therefore subject to change or hesitation.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "tempt",
+          "meaning": "to test, examine",
+          "origin": "Latin"
+        },
+        {
+          "part": "-ive",
+          "meaning": "having the nature of",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "tentatively (adv.)",
+        "tentativeness (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "provisional",
+          "note": "Emphasises temporary status, often used for policies or arrangements awaiting final approval."
+        },
+        {
+          "word": "conditional",
+          "note": "Highlights that something depends on certain conditions being met, rather than being outright fixed."
+        },
+        {
+          "word": "preliminary",
+          "note": "Suggests an early stage before a more complete or definitive version is produced."
+        }
+      ],
+      "antonyms": [
+        "independent",
+        "unconditional",
+        "definitive"
+      ],
+      "examples": [
+        "The committee issued a tentative schedule, acknowledging that upcoming budget cuts could force revisions.",
+        "Scientists presented tentative findings, urging peers to replicate the experiments before drawing firm conclusions."
+      ],
+      "mnemonic": "Think of a \"tent\" you set up first to test the ground before committing to stay.",
+      "confusables": [],
+      "lemma": "tentative",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/tentat01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309574179,
+      "updated_at": 1787309574179,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "tempt",
+        "-ive"
+      ]
+    },
+    {
+      "display": "provisional",
+      "ipa": "/prəˈvɪʒənəl/",
+      "pos": "adjective",
+      "simple": "It’s something meant to last only until a better solution is found.",
+      "formal": "Serving for the time being; intended to be temporary.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "pro-",
+          "meaning": "forward, before",
+          "origin": "Latin"
+        },
+        {
+          "part": "vis",
+          "meaning": "to see, to provide",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "provisionally (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "interim",
+          "note": "Used mainly for periods between two more permanent arrangements, often in official contexts."
+        },
+        {
+          "word": "temporary",
+          "note": "General term for anything lasting only a limited time, less formal than interim."
+        },
+        {
+          "word": "short-term",
+          "note": "Emphasizes brief duration, often applied to plans or effects rather than institutions."
+        }
+      ],
+      "antonyms": [
+        "permanent",
+        "long-term"
+      ],
+      "examples": [
+        "The provisional cabinet announced its agenda, but warned that a permanent administration would follow after elections.",
+        "Investors treated the provisional funding as a stopgap, pending approval of a long‑term financing plan."
+      ],
+      "mnemonic": "Think of ‘pro‑vision’; a provision is a temporary fix until something permanent replaces it.",
+      "confusables": [
+        "provincial"
+      ],
+      "lemma": "provisional",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/provis03.mp3",
+      "low_confidence": false,
+      "created_at": 1787309609270,
+      "updated_at": 1787309609270,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "pro-",
+        "vis"
+      ]
+    },
+    {
+      "display": "contingent",
+      "ipa": "/kən-ˈtin-jənt/",
+      "pos": "adjective",
+      "simple": "It means your plans change depending on something else happening.",
+      "formal": "Dependent on or conditioned by other circumstances, not guaranteed in advance.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "con-",
+          "meaning": "with, together",
+          "origin": "Latin"
+        },
+        {
+          "part": "tangere",
+          "meaning": "to touch, to reach",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "contingently (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "conditional",
+          "note": "Emphasises that something is subject to specific terms rather than merely dependent."
+        },
+        {
+          "word": "provisional",
+          "note": "Suggests a temporary, tentative status, often used for arrangements awaiting confirmation."
+        },
+        {
+          "word": "subject",
+          "note": "Indicates subordination to external factors, common in legal or formal contexts."
+        }
+      ],
+      "antonyms": [
+        "fixed",
+        "established",
+        "regular"
+      ],
+      "examples": [
+        "The funding for the research project is contingent on the approval of the ethics board, leaving the timeline uncertain.",
+        "Legislators warned that the new tax credit would be contingent upon the passage of complementary budget measures."
+      ],
+      "mnemonic": "Think of ‘con‑tang‑ent’: things that touch together—your plans only touch reality when conditions align.",
+      "confusables": [],
+      "lemma": "contingent",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/contin08.mp3",
+      "low_confidence": false,
+      "created_at": 1787309642963,
+      "updated_at": 1787309642963,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "con-",
+        "tangere"
+      ]
+    },
+    {
+      "display": "tantamount",
+      "ipa": "/ˈtan-tə-ˌmau̇nt/",
+      "pos": "adjective",
+      "simple": "When two things have the same impact, they are effectively equal.",
+      "formal": "Having equal value, significance, or effect.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "tant",
+          "meaning": "so much",
+          "origin": "French"
+        },
+        {
+          "part": "amunter",
+          "meaning": "to amount to",
+          "origin": "Old French"
+        }
+      ],
+      "family": [],
+      "synonyms": [
+        {
+          "word": "comparable",
+          "note": "Used for things that can be measured side‑by‑side, often implying some differences remain."
+        },
+        {
+          "word": "analogous",
+          "note": "Highlights similarity in relationship rather than exact equality of value or effect."
+        },
+        {
+          "word": "parallel",
+          "note": "Suggests a similar line or trend, but not necessarily identical impact."
+        }
+      ],
+      "antonyms": [
+        "disparate",
+        "distinct",
+        "nonequivalent"
+      ],
+      "examples": [
+        "The policy's environmental cost is tantamount to a breach of international law.",
+        "His silence was tantamount to an admission of guilt."
+      ],
+      "mnemonic": "Think of a tan amount of weight that you can’t move – it matches another weight exactly.",
+      "confusables": [
+        "tantalum"
+      ],
+      "lemma": "tantamount",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/t/tantam01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309678106,
+      "updated_at": 1787309678106,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "tant",
+        "amunter"
+      ]
+    },
+    {
+      "display": "notwithstanding",
+      "ipa": "/ˌnät-with-ˈstan-diŋ/",
+      "pos": "preposition",
+      "simple": "You go ahead with the plan, even though obstacles exist.",
+      "formal": "Despite something, often placed after the thing it refers to.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "not",
+          "meaning": "negation",
+          "origin": "Germanic (Old English nōt)"
+        },
+        {
+          "part": "with",
+          "meaning": "together, alongside",
+          "origin": "Germanic (Old English wiþ)"
+        },
+        {
+          "part": "stond",
+          "meaning": "to stand, withstand",
+          "origin": "Germanic (related to Old English standan)"
+        }
+      ],
+      "family": [
+        "withstand (v.)",
+        "withstanding (n.)",
+        "withstood (v.)"
+      ],
+      "synonyms": [
+        {
+          "word": "nevertheless",
+          "note": "Slightly more formal, often used to introduce a contrasting clause."
+        },
+        {
+          "word": "nonetheless",
+          "note": "Neutral register, conveys the same idea with a slightly softer tone."
+        },
+        {
+          "word": "however",
+          "note": "Commonly used to signal contrast; can imply a shift rather than pure concession."
+        }
+      ],
+      "antonyms": [
+        "because",
+        "due"
+      ],
+      "examples": [
+        "The committee approved the budget, objections notwithstanding, and moved forward with the project.",
+        "The policy was implemented, criticism notwithstanding, and produced immediate results."
+      ],
+      "mnemonic": "Think of ‘not with standing’ – you refuse to stand with obstacles, so you proceed despite them.",
+      "confusables": [],
+      "lemma": "notwithstanding",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/n/notwit01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309712833,
+      "updated_at": 1787309712833,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "not",
+        "with",
+        "stond"
       ]
     }
   ],

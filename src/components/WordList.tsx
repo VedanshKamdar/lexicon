@@ -389,7 +389,11 @@ export function WordList({
           )}
 
           {footer}
-          <div className="h-10" />
+          {/* Clears the iOS home indicator, which otherwise covers the last rows. */}
+          <div
+            className="h-10"
+            style={{ height: 'calc(2.5rem + env(safe-area-inset-bottom))' }}
+          />
         </div>
 
         {showRail && (

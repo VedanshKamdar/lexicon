@@ -100,6 +100,10 @@ body {
 }
 .lxsc {
   scrollbar-width: none;
+  /* Momentum scrolling on older iOS, and stop a scroll at either end from
+     chaining out to the page — which on iOS reads as the list refusing to move. */
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 @keyframes lxshimmer {
