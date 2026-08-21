@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exported_at": 1787309712833,
+  "exported_at": 1787309920592,
   "cards": [
     {
       "display": "empirical",
@@ -1904,6 +1904,385 @@
         "not",
         "with",
         "stond"
+      ]
+    },
+    {
+      "display": "albeit",
+      "ipa": "/ȯl-ˈbē-ət/",
+      "pos": "conjunction",
+      "simple": "Even though something is true, you still point out a contrasting fact.",
+      "formal": "Even though; used to introduce a concession.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "all",
+          "meaning": "all",
+          "origin": "Old English"
+        },
+        {
+          "part": "be",
+          "meaning": "be",
+          "origin": "Germanic"
+        },
+        {
+          "part": "it",
+          "meaning": "it",
+          "origin": "Old English"
+        }
+      ],
+      "family": [],
+      "synonyms": [
+        {
+          "word": "although",
+          "note": "Direct equivalent in meaning, but slightly more formal than albeit."
+        },
+        {
+          "word": "though",
+          "note": "More informal and often used at sentence ends, unlike the concessive placement of albeit."
+        },
+        {
+          "word": "notwithstanding",
+          "note": "Highly formal and legalistic, usually standing alone rather than linking clauses as albeit does."
+        }
+      ],
+      "antonyms": [
+        "because",
+        "since"
+      ],
+      "examples": [
+        "The policy was praised, albeit criticized for its lack of transparency, prompting a heated parliamentary debate.",
+        "Investors welcomed the profit surge, albeit noting that the market remained volatile and uncertain."
+      ],
+      "mnemonic": "Think of the phrase “all be it” – even if it is true, you still add a contrast.",
+      "confusables": [],
+      "lemma": "albeit",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/albeit01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309747442,
+      "updated_at": 1787309747442,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "all",
+        "be",
+        "it"
+      ]
+    },
+    {
+      "display": "concomitant",
+      "ipa": "/kənˈkɒmɪtənt/",
+      "pos": "adjective",
+      "simple": "When one event happens, another occurs alongside it, often as a side effect.",
+      "formal": "Accompanying something else in a subordinate or incidental manner.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "com-",
+          "meaning": "with, together",
+          "origin": "Latin"
+        },
+        {
+          "part": "comit-",
+          "meaning": "companion, count",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "concomitantly (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "coincident",
+          "note": "Emphasises simultaneous timing rather than subordinate accompaniment."
+        },
+        {
+          "word": "corollary",
+          "note": "Indicates a logical consequence, not merely a side‑by‑side occurrence."
+        },
+        {
+          "word": "attendant",
+          "note": "Often refers to a person providing support, whereas concomitant is broader."
+        }
+      ],
+      "antonyms": [
+        "independent",
+        "separate"
+      ],
+      "examples": [
+        "The rise in urban pollution is concomitant with the surge in traffic congestion, each exacerbating the other.",
+        "Her anxiety was concomitant with insomnia, the sleepless nights feeding her nervous tension."
+      ],
+      "mnemonic": "Think of ‘come’ together—concomitant means things that come together.",
+      "confusables": [],
+      "lemma": "concomitant",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/c/concom02.mp3",
+      "low_confidence": false,
+      "created_at": 1787309781845,
+      "updated_at": 1787309781845,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "com-",
+        "comit-"
+      ]
+    },
+    {
+      "display": "attendant",
+      "ipa": "/ə-ˈten-dənt/",
+      "pos": "noun",
+      "simple": "An attendant is someone who helps you by waiting nearby to provide a service.",
+      "formal": "A person who attends to another’s needs, especially by providing a service, or something that accompanies another thing.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "ad-",
+          "meaning": "to, toward",
+          "origin": "Latin"
+        },
+        {
+          "part": "tend-",
+          "meaning": "stretch",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "attendance (n.)",
+        "attend (v.)",
+        "attentive (adj.)",
+        "attending (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "escort",
+          "note": "Emphasises protective or ceremonial accompaniment rather than routine service."
+        },
+        {
+          "word": "companion",
+          "note": "Suggests a friendly partner, not necessarily a hired service provider."
+        },
+        {
+          "word": "guide",
+          "note": "Focuses on leading or directing, whereas attendant mainly waits to serve."
+        }
+      ],
+      "antonyms": [],
+      "examples": [
+        "The museum’s ticket counters were staffed by attendants who patiently answered every visitor’s query.",
+        "During the night shift, the gas‑station attendant kept the pumps running smoothly despite the cold."
+      ],
+      "mnemonic": "Think of ‘attend’ plus ‘‑ant’; an attendant is the ant that attends to you.",
+      "confusables": [],
+      "lemma": "attendant",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/attend03.mp3",
+      "low_confidence": false,
+      "created_at": 1787309816310,
+      "updated_at": 1787309816310,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "ad-",
+        "tend-"
+      ]
+    },
+    {
+      "display": "requisite",
+      "ipa": "/ˈre-kwə-zət/",
+      "pos": "adjective",
+      "simple": "You need something that is required for a particular purpose.",
+      "formal": "Needed for a particular purpose; essential or necessary.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "re-",
+          "meaning": "again, back",
+          "origin": "Latin"
+        },
+        {
+          "part": "quirere",
+          "meaning": "to seek, ask for",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "requisite (n.)",
+        "requisiteness (n.)"
+      ],
+      "synonyms": [
+        {
+          "word": "essential",
+          "note": "Broadly used in many fields, slightly stronger than merely needed."
+        },
+        {
+          "word": "indispensable",
+          "note": "Conveys that something cannot be done without, more forceful than required."
+        },
+        {
+          "word": "necessary",
+          "note": "Neutral tone, common in everyday language, matches the core meaning."
+        }
+      ],
+      "antonyms": [
+        "unnecessary",
+        "dispensable"
+      ],
+      "examples": [
+        "The investigative panel dismissed the testimony because it lacked the requisite evidence to substantiate the claims.",
+        "Even seasoned diplomats recognize that transparency is a requisite element of any credible peace negotiation."
+      ],
+      "mnemonic": "re‑QUIRE + -site: you must ‘require’ it, so it’s a must‑have.",
+      "confusables": [],
+      "lemma": "requisite",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/r/requis01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309851022,
+      "updated_at": 1787309851022,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "re-",
+        "quirere"
+      ]
+    },
+    {
+      "display": "axiomatic",
+      "ipa": "/ˌak-sē-ˈma-tik/",
+      "pos": "adjective",
+      "simple": "You treat this idea as obvious and needing no proof.",
+      "formal": "Taken for granted as self‑evident; based on an accepted axiom.",
+      "connotation": "neutral",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "axiōmat-",
+          "meaning": "axiom",
+          "origin": "Latin"
+        },
+        {
+          "part": "-ic",
+          "meaning": "pertaining to",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "axiomatically (adv.)"
+      ],
+      "synonyms": [
+        {
+          "word": "self‑evident",
+          "note": "Emphasises that the truth is obvious without needing demonstration."
+        },
+        {
+          "word": "unquestionable",
+          "note": "Carries a stronger tone of authority, suggesting no one can dispute it."
+        },
+        {
+          "word": "incontrovertible",
+          "note": "Implies that evidence firmly supports the claim, stronger than mere self‑evidence."
+        }
+      ],
+      "antonyms": [
+        "doubtful",
+        "uncertain",
+        "questionable",
+        "ambiguous",
+        "debatable"
+      ],
+      "examples": [
+        "The economist argued that the law of supply and demand is axiomatic, underpinning every market analysis.",
+        "In the paper, the author treats the principle of non‑contradiction as axiomatic, leaving no room for debate."
+      ],
+      "mnemonic": "Think of “axiom” plus “‑matic”: a rule that works automatically, so it’s taken as obvious.",
+      "confusables": [],
+      "lemma": "axiomatic",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/a/axioma01.mp3",
+      "low_confidence": false,
+      "created_at": 1787309886125,
+      "updated_at": 1787309886125,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "axiōmat-",
+        "-ic"
+      ]
+    },
+    {
+      "display": "laud",
+      "ipa": "/ˈlȯd/",
+      "pos": "verb",
+      "simple": "You publicly commend someone for their achievements.",
+      "formal": "To express warm approval or admiration publicly.",
+      "connotation": "positive",
+      "register": "formal",
+      "roots": [
+        {
+          "part": "root",
+          "meaning": "praise",
+          "origin": "Latin"
+        }
+      ],
+      "family": [
+        "Laudian (adj.)"
+      ],
+      "synonyms": [
+        {
+          "word": "acclaim",
+          "note": "Emphasizes widespread public approval, often louder than simple praise."
+        },
+        {
+          "word": "applause",
+          "note": "Physical expression of praise, usually by clapping, not just verbal."
+        },
+        {
+          "word": "honor",
+          "note": "Conveys formal recognition of merit, often tied to status or ceremony."
+        },
+        {
+          "word": "kudos",
+          "note": "Informal, upbeat acknowledgment of achievement, less solemn than laud."
+        },
+        {
+          "word": "laurels",
+          "note": "Symbolic awards of distinction, focusing on achievement rather than verbal praise."
+        }
+      ],
+      "antonyms": [
+        "knock",
+        "pan",
+        "slam"
+      ],
+      "examples": [
+        "The editorial board lauded the journalist’s investigative series, calling it a benchmark for public service reporting.",
+        "In the opening hymn, the choir lauded the divine, weaving verses that resonated through the vaulted nave."
+      ],
+      "mnemonic": "Think of ‘laud’ sounding like ‘loud’ applause that fills a hall when you praise someone.",
+      "confusables": [
+        "loud"
+      ],
+      "lemma": "laud",
+      "audio_url": "https://media.merriam-webster.com/audio/prons/en/us/mp3/l/laud0001.mp3",
+      "low_confidence": false,
+      "created_at": 1787309920591,
+      "updated_at": 1787309920591,
+      "user_edited": false,
+      "view_count": 0,
+      "last_viewed_at": null,
+      "deleted_at": null,
+      "rootParts": [
+        "root"
       ]
     }
   ],
