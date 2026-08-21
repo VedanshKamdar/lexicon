@@ -1,4 +1,4 @@
-import { suggestCorrections } from '../src/api/spellcheck';
+import { suggestCorrections } from '../src/api/spellcheck.js';
 
 const TYPOS = ['recieve', 'seperate', 'definately', 'acheive', 'obdurat', 'mitigat', 'perspicacous', 'occured'];
 const CORRECT = ['obdurate', 'mitigate', 'perspicacious', 'laconic', 'zeitgeist', 'sanction'];

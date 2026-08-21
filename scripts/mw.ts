@@ -1,6 +1,6 @@
 /** Verifies the Merriam-Webster keys and shows what they add. Run after filling .env. */
 import 'dotenv/config';
-import { merriamDictionary, merriamThesaurus } from '../src/api/merriam';
+import { merriamDictionary, merriamThesaurus } from '../src/api/merriam.js';
 
 const dk = process.env.MW_DICTIONARY_KEY;
 const tk = process.env.MW_THESAURUS_KEY;

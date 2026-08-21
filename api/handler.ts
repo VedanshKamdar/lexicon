@@ -1,7 +1,7 @@
-import { generateCard } from './groq';
-import { gather } from '../src/api/fetchers';
-import { suggestCorrections } from '../src/api/spellcheck';
-import type { Gathered } from '../src/api/fetchers';
+import { generateCard } from './groq.js';
+import { gather } from '../src/api/fetchers.js';
+import { suggestCorrections } from '../src/api/spellcheck.js';
+import type { Gathered } from '../src/api/fetchers.js';
 
 export interface HandlerResult {
   status: number;

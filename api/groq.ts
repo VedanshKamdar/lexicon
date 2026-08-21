@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { GeneratedCardSchema, type GeneratedCard } from '../src/schema/card';
-import type { RawPayload } from '../src/schema/raw';
-import { SYSTEM_PROMPT, buildUserMessage } from './prompt';
+import { GeneratedCardSchema, type GeneratedCard } from '../src/schema/card.js';
+import type { RawPayload } from '../src/schema/raw.js';
+import { SYSTEM_PROMPT, buildUserMessage } from './prompt.js';
 
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 

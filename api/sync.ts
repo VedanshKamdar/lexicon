@@ -1,4 +1,4 @@
-import { handleSync } from './syncHandler';
+import { handleSync } from './syncHandler.js';
 
 /** Vercel serverless entry point. */
 export default async function handler(req: any, res: any) {

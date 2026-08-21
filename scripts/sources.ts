@@ -1,4 +1,4 @@
-import { gather } from '../src/api/fetchers';
+import { gather } from '../src/api/fetchers.js';
 
 const WORDS = ['perspicacious', 'obdurate', 'zeitgeist', 'sanction', 'laconic', 'asdfgh', 'recieve'];
 

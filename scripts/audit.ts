@@ -1,4 +1,4 @@
-import type { GeneratedCard } from '../src/schema/card';
+import type { GeneratedCard } from '../src/schema/card.js';
 
 /**
  * Checks a generated card for the specific ways these models drift — generic

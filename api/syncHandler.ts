@@ -1,5 +1,5 @@
 import { createClient, type Client } from '@libsql/client';
-import type { HandlerResult } from './handler';
+import type { HandlerResult } from './handler.js';
 
 /**
  * The server never parses a card. It stores the whole record as an opaque JSON

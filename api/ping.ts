@@ -27,13 +27,13 @@ export default async function handler(_req: unknown, res: any) {
     }
   };
 
-  await probe('import ../src/schema/raw', () => import('../src/schema/raw'));
-  await probe('import ../src/schema/card', () => import('../src/schema/card'));
-  await probe('import ../src/api/fetchers', () => import('../src/api/fetchers'));
-  await probe('import ./prompt', () => import('./prompt'));
-  await probe('import ./groq', () => import('./groq'));
-  await probe('import ./handler', () => import('./handler'));
-  await probe('import ./syncHandler', () => import('./syncHandler'));
+  await probe('import ../src/schema/raw', () => import('../src/schema/raw.js'));
+  await probe('import ../src/schema/card', () => import('../src/schema/card.js'));
+  await probe('import ../src/api/fetchers', () => import('../src/api/fetchers.js'));
+  await probe('import ./prompt', () => import('./prompt.js'));
+  await probe('import ./groq', () => import('./groq.js'));
+  await probe('import ./handler', () => import('./handler.js'));
+  await probe('import ./syncHandler', () => import('./syncHandler.js'));
   await probe('import @libsql/client', () => import('@libsql/client'));
 
   res.status(200).json(report);

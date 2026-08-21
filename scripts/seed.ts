@@ -13,10 +13,10 @@
  */
 import 'dotenv/config';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
-import { gather } from '../src/api/fetchers';
-import { generateCard, getLastUsage } from '../api/groq';
-import { StoredCardSchema, type StoredCard } from '../src/schema/card';
-import { auditCard } from './audit';
+import { gather } from '../src/api/fetchers.js';
+import { generateCard, getLastUsage } from '../api/groq.js';
+import { StoredCardSchema, type StoredCard } from '../src/schema/card.js';
+import { auditCard } from './audit.js';
 
 const args = process.argv.slice(2);
 const argOf = (name: string, fallback: string) => {

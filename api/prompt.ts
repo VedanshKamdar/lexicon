@@ -1,4 +1,4 @@
-import type { RawPayload } from '../src/schema/raw';
+import type { RawPayload } from '../src/schema/raw.js';
 
 /**
  * Kept as a single exported constant on purpose — this gets iterated on far more

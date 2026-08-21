@@ -1,4 +1,4 @@
-import type { DictionaryResult } from './fetchers';
+import type { DictionaryResult } from './fetchers.js';
 
 const TIMEOUT_MS = 5000;
 const BASE = 'https://www.dictionaryapi.com/api/v3/references';

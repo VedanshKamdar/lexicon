@@ -1,4 +1,4 @@
-import { handleResolve } from './handler';
+import { handleResolve } from './handler.js';
 
 /** Vercel serverless entry point. */
 export default async function handler(req: any, res: any) {

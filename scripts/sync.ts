@@ -5,7 +5,7 @@
  *   npx tsx scripts/sync.ts
  */
 import 'dotenv/config';
-import { handleSync } from '../api/syncHandler';
+import { handleSync } from '../api/syncHandler.js';
 
 if (!process.env.TURSO_DATABASE_URL) {
   console.error('Add TURSO_DATABASE_URL and TURSO_AUTH_TOKEN to .env first.');

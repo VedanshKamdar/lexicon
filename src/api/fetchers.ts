@@ -1,5 +1,5 @@
-import type { RawPayload } from '../schema/raw';
-import { merriamDictionary, merriamThesaurus } from './merriam';
+import type { RawPayload } from '../schema/raw.js';
+import { merriamDictionary, merriamThesaurus } from './merriam.js';
 
 const TIMEOUT_MS = 5000;
 

@@ -5,9 +5,9 @@
  *   npx tsx scripts/try.ts obdurate sanction zeitgeist
  */
 import 'dotenv/config';
-import { gather } from '../src/api/fetchers';
-import { generateCard } from '../api/groq';
-import { auditCard } from './audit';
+import { gather } from '../src/api/fetchers.js';
+import { generateCard } from '../api/groq.js';
+import { auditCard } from './audit.js';
 
 async function run(word: string) {
   const t0 = Date.now();

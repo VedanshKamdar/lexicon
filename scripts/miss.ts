@@ -1,4 +1,4 @@
-import { gather, wiktionary, freeDictionary } from '../src/api/fetchers';
+import { gather, wiktionary, freeDictionary } from '../src/api/fetchers.js';
 for (const w of ['recieve', 'seperate', 'definately']) {
   const g = await gather(w);
   const wk = await wiktionary(w).catch((e) => ({ err: e.message }) as any);
