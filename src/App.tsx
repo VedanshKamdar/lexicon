@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Card } from './components/Card';
 import { WordList } from './components/WordList';
+import { Quiz } from './components/Quiz';
 import {
   GeneratingCard,
   ResolvingCard,
@@ -19,7 +20,7 @@ import { useRoute } from './hooks/useRoute';
 import { useSync } from './hooks/useSync';
 import { useIsDesktop } from './hooks/useIsDesktop';
 import { storageBroken } from './db/schema';
-import { deleteCard, normalize } from './db/queries';
+import { deleteCard, normalize, recordView } from './db/queries';
 
 export default function App() {
   const { route, navigate, back, backLabel } = useRoute();
@@ -162,6 +163,14 @@ export default function App() {
     </>
   );
 
+  const quizPane = (
+    <Quiz
+      cards={cards ?? []}
+      onCorrect={(lemma) => void recordView(lemma)}
+      onOpenWord={openWord}
+    />
+  );
+
   const listFooter = (
     <div className="px-[18px]">
       <InstallHint />
@@ -183,12 +192,15 @@ export default function App() {
             onLookup={openWord}
             selected={route.name === 'word' ? route.lemma : null}
             footer={listFooter}
+            onStartTest={() => navigate({ name: 'quiz' })}
           />
         </div>
         <div className="lxsc min-h-0 overflow-y-auto bg-bg">
           <div className="mx-auto max-w-[660px] px-10 pb-20 pt-11">
             {banners}
-            {route.name === 'word' ? (
+            {route.name === 'quiz' ? (
+              quizPane
+            ) : route.name === 'word' ? (
               cardPane
             ) : (
               <div className="pt-24 text-center">
@@ -206,7 +218,25 @@ export default function App() {
 
   return (
     <div className="flex h-[100dvh] flex-col overflow-hidden bg-bg">
-      {route.name === 'word' ? (
+      {route.name === 'quiz' ? (
+        <>
+          <div
+            className="flex flex-none items-center justify-between border-b border-rule-2 bg-surface px-3 pb-2"
+            style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.25rem)' }}
+          >
+            <button
+              onClick={back}
+              className="flex items-center gap-1.5 px-2.5 py-2.5 text-[15px] text-ink-2"
+            >
+              <span aria-hidden="true">‹</span>
+              <span className="text-[13px]">{backLabel ?? 'All words'}</span>
+            </button>
+          </div>
+          <div className="lxsc min-h-0 flex-1 overflow-y-auto bg-surface px-[22px] pb-11 pt-5">
+            {quizPane}
+          </div>
+        </>
+      ) : route.name === 'word' ? (
         <>
           <div
             className="flex flex-none items-center justify-between border-b border-rule-2 bg-surface px-3 pb-2"
@@ -231,7 +261,13 @@ export default function App() {
           style={{ paddingTop: 'env(safe-area-inset-top)' }}
         >
           {(offline || storageBroken) && <div className="px-[18px] pt-3">{banners}</div>}
-          <WordList cards={cards ?? []} onOpen={openWord} onLookup={openWord} footer={listFooter} />
+          <WordList
+            cards={cards ?? []}
+            onOpen={openWord}
+            onLookup={openWord}
+            footer={listFooter}
+            onStartTest={() => navigate({ name: 'quiz' })}
+          />
         </div>
       )}
     </div>

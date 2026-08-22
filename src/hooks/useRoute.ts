@@ -3,10 +3,12 @@ import { useCallback, useEffect, useState } from 'react';
 export type Route =
   | { name: 'home' }
   | { name: 'list' }
+  | { name: 'quiz' }
   | { name: 'word'; lemma: string };
 
 export function parseRoute(pathname: string): Route {
   if (pathname === '/words') return { name: 'list' };
+  if (pathname === '/test') return { name: 'quiz' };
   const match = /^\/w\/(.+)$/.exec(pathname);
   if (match) return { name: 'word', lemma: decodeURIComponent(match[1]) };
   return { name: 'home' };
@@ -14,6 +16,7 @@ export function parseRoute(pathname: string): Route {
 
 export function routePath(route: Route): string {
   if (route.name === 'list') return '/words';
+  if (route.name === 'quiz') return '/test';
   if (route.name === 'word') return `/w/${encodeURIComponent(route.lemma)}`;
   return '/';
 }
@@ -29,6 +32,7 @@ export function routePath(route: Route): string {
 /** What the back control should say when this entry is on screen. */
 function labelFor(route: Route): string {
   if (route.name === 'word') return route.lemma;
+  if (route.name === 'quiz') return 'the test';
   // Home is the word list, so that is what "back" returns you to.
   return 'All words';
 }

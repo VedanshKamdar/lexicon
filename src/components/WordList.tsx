@@ -75,12 +75,14 @@ export function WordList({
   onLookup,
   selected = null,
   footer,
+  onStartTest,
 }: {
   cards: StoredCard[];
   onOpen: (lemma: string) => void;
   onLookup: (word: string, encounter?: string) => void;
   selected?: string | null;
   footer?: React.ReactNode;
+  onStartTest?: () => void;
 }) {
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState<Sort>('recent');
@@ -230,7 +232,19 @@ export function WordList({
           <span className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-ink">
             Lexicon
           </span>
-          <span className="whitespace-nowrap font-mono text-[11px] text-ink-3">{countLabel}</span>
+          <div className="flex items-baseline gap-3">
+            <span className="whitespace-nowrap font-mono text-[11px] text-ink-3">
+              {countLabel}
+            </span>
+            {onStartTest && (
+              <button
+                onClick={onStartTest}
+                className="whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.1em] text-accent"
+              >
+                Test
+              </button>
+            )}
+          </div>
         </div>
 
         <form
