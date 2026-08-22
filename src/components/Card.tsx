@@ -74,11 +74,13 @@ export function Card({
   encounters = [],
   onDelete,
   onWordSelect,
+  onEdit,
 }: {
   card: StoredCard;
   encounters?: Encounter[];
   onDelete?: () => void;
   onWordSelect?: (word: string) => void;
+  onEdit?: () => void;
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -116,17 +118,30 @@ export function Card({
           >
             ⋯
           </button>
-          {menuOpen && onDelete && (
+          {menuOpen && (
             <div className="absolute right-0 top-10 z-10 rounded-md border border-rule bg-surface py-1">
-              <button
-                onClick={() => {
-                  setMenuOpen(false);
-                  onDelete();
-                }}
-                className="w-full whitespace-nowrap px-4 py-2 text-left text-[13px] text-warn"
-              >
-                Delete word
-              </button>
+              {onEdit && (
+                <button
+                  onClick={() => {
+                    setMenuOpen(false);
+                    onEdit();
+                  }}
+                  className="w-full whitespace-nowrap px-4 py-2 text-left text-[13px] text-ink"
+                >
+                  Edit card
+                </button>
+              )}
+              {onDelete && (
+                <button
+                  onClick={() => {
+                    setMenuOpen(false);
+                    onDelete();
+                  }}
+                  className="w-full whitespace-nowrap px-4 py-2 text-left text-[13px] text-warn"
+                >
+                  Delete word
+                </button>
+              )}
             </div>
           )}
         </div>

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Card } from './components/Card';
 import { WordList } from './components/WordList';
 import { Quiz } from './components/Quiz';
+import { CardEditor, type CardEdits } from './components/CardEditor';
 import {
   GeneratingCard,
   ResolvingCard,
@@ -20,7 +21,7 @@ import { useRoute } from './hooks/useRoute';
 import { useSync } from './hooks/useSync';
 import { useIsDesktop } from './hooks/useIsDesktop';
 import { storageBroken } from './db/schema';
-import { deleteCard, normalize, recordView } from './db/queries';
+import { deleteCard, normalize, recordView, updateCard, addEncounter } from './db/queries';
 
 export default function App() {
   const { route, navigate, back, backLabel } = useRoute();
@@ -62,7 +63,7 @@ export default function App() {
   // The route is the source of truth: landing on /w/<word> — by submitting, by
   // tapping a synonym, or by swiping back — is what runs the lookup.
   useEffect(() => {
-    if (route.name !== 'word') {
+    if (route.name !== 'word' && route.name !== 'edit') {
       reset();
       lastRun.current = null;
       return;
@@ -90,6 +91,17 @@ export default function App() {
     if (encounter) pendingEncounter.current = { lemma, sentence: encounter };
     setPendingDelete(null);
     navigate({ name: 'word', lemma });
+  }
+
+  async function saveEdits(lemma: string, edits: CardEdits) {
+    const { encounter, ...patch } = edits;
+    await updateCard(lemma, { ...patch, user_edited: true });
+    if (encounter) await addEncounter(lemma, encounter, null);
+    // An edit changes no card count, so the count-watching effect will not fire.
+    // Push it explicitly or the correction never leaves this device.
+    void syncNow();
+    setRetryToken((n) => n + 1);
+    navigate({ name: 'word', lemma }, { replace: true });
   }
 
   async function confirmDelete(lemma: string) {
@@ -136,6 +148,7 @@ export default function App() {
             encounters={encounters}
             onDelete={() => setPendingDelete(state.card.lemma)}
             onWordSelect={openWord}
+            onEdit={() => navigate({ name: 'edit', lemma: state.card.lemma })}
           />
         </>
       )}
@@ -162,6 +175,19 @@ export default function App() {
       )}
     </>
   );
+
+  const editorPane =
+    state.status === 'success' ? (
+      <CardEditor
+        key={state.card.lemma}
+        card={state.card}
+        onCancel={() => back()}
+        onSave={(edits) => void saveEdits(state.card.lemma, edits)}
+        onDelete={() => setPendingDelete(state.card.lemma)}
+      />
+    ) : (
+      <ResolvingCard word={route.name === 'edit' ? route.lemma : ''} />
+    );
 
   const quizPane = (
     <Quiz
@@ -205,6 +231,8 @@ export default function App() {
             {banners}
             {route.name === 'quiz' ? (
               quizPane
+            ) : route.name === 'edit' ? (
+              editorPane
             ) : route.name === 'word' ? (
               cardPane
             ) : (
@@ -241,6 +269,22 @@ export default function App() {
             {quizPane}
           </div>
         </>
+      ) : route.name === 'edit' ? (
+        <div
+          className="lxsc min-h-0 flex-1 overflow-y-auto bg-surface px-[22px] pb-11"
+          style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.75rem)' }}
+        >
+          {pendingDelete && (
+            <div className="mb-4">
+              <ConfirmDelete
+                word={pendingDelete}
+                onCancel={() => setPendingDelete(null)}
+                onConfirm={() => void confirmDelete(pendingDelete)}
+              />
+            </div>
+          )}
+          {editorPane}
+        </div>
       ) : route.name === 'word' ? (
         <>
           <div
