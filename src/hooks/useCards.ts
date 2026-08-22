@@ -14,6 +14,20 @@ export function useCards(): StoredCard[] | undefined {
   );
 }
 
+/**
+ * Live view of one card. The lookup hook reads storage once and holds a snapshot,
+ * so a card left open goes stale the moment sync pulls a newer copy — or another
+ * tab edits it. Reading through Dexie's live query keeps what is on screen equal
+ * to what is stored.
+ */
+export function useCard(lemma: string | null): StoredCard | undefined {
+  return useLiveQuery(
+    (): Promise<StoredCard | undefined> =>
+      lemma ? db.cards.get(lemma) : Promise.resolve(undefined),
+    [lemma]
+  );
+}
+
 export function useEncounters(lemma: string | null): Encounter[] {
   return (
     useLiveQuery(

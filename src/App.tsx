@@ -16,7 +16,7 @@ import {
 import { BackupControls } from './components/BackupControls';
 import { InstallHint } from './components/InstallHint';
 import { useLookup } from './hooks/useLookup';
-import { useCards, useEncounters } from './hooks/useCards';
+import { useCards, useCard, useEncounters } from './hooks/useCards';
 import { useRoute } from './hooks/useRoute';
 import { useSync } from './hooks/useSync';
 import { useIsDesktop } from './hooks/useIsDesktop';
@@ -43,6 +43,9 @@ export default function App() {
   const cards = useCards();
   const activeLemma = state.status === 'success' ? state.card.lemma : null;
   const encounters = useEncounters(activeLemma);
+  // Prefer what is stored over the snapshot the lookup captured, so a sync or an
+  // edit elsewhere updates the card already on screen.
+  const liveCard = useCard(activeLemma);
 
   useEffect(() => {
     const on = () => setOffline(false);
@@ -110,6 +113,13 @@ export default function App() {
     navigate({ name: 'home' }, { replace: true });
   }
 
+  const shownCard =
+    state.status === 'success'
+      ? liveCard && !liveCard.deleted_at
+        ? liveCard
+        : state.card
+      : null;
+
   const banners = (
     <>
       {offline && (
@@ -144,7 +154,7 @@ export default function App() {
           )}
           <Card
             key={state.card.lemma}
-            card={state.card}
+            card={shownCard ?? state.card}
             encounters={encounters}
             onDelete={() => setPendingDelete(state.card.lemma)}
             onWordSelect={openWord}
@@ -180,7 +190,7 @@ export default function App() {
     state.status === 'success' ? (
       <CardEditor
         key={state.card.lemma}
-        card={state.card}
+        card={shownCard ?? state.card}
         onCancel={() => back()}
         onSave={(edits) => void saveEdits(state.card.lemma, edits)}
         onDelete={() => setPendingDelete(state.card.lemma)}
