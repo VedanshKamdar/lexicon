@@ -22,6 +22,11 @@
   --soft: #eceff6;
   --warn: #7c4a2b;
   --warnsoft: #f6efe8;
+  /* The imported palette had no positive colour. A quiz needs one: without it,
+     "correct" and "here is the answer you missed" render identically. Muted to
+     sit with the rest rather than shouting. */
+  --ok: #2f6b4f;
+  --oksoft: #e7efe9;
   --on-accent: #ffffff;
 }
 
@@ -38,6 +43,8 @@
     --soft: #1b212c;
     --warn: #c69172;
     --warnsoft: #241c16;
+    --ok: #7fb79a;
+    --oksoft: #16241d;
     --on-accent: #0e1013;
   }
 }
@@ -54,6 +61,8 @@
   --color-soft: var(--soft);
   --color-warn: var(--warn);
   --color-warnsoft: var(--warnsoft);
+  --color-ok: var(--ok);
+  --color-oksoft: var(--oksoft);
   --color-on-accent: var(--on-accent);
 
   --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;

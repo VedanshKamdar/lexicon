@@ -15,10 +15,12 @@ export function Quiz({
   cards,
   onCorrect,
   onOpenWord,
+  onExit,
 }: {
   cards: StoredCard[];
   onCorrect: (lemma: string) => void;
   onOpenWord: (lemma: string) => void;
+  onExit: () => void;
 }) {
   const [question, setQuestion] = useState<Question | null>(null);
   const [chosen, setChosen] = useState<number | null>(null);
@@ -92,11 +94,16 @@ export function Quiz({
 
   return (
     <div className="flex flex-col">
-      <div className="flex items-baseline justify-between font-mono text-[10px] uppercase tracking-[0.14em] text-ink-3">
+      <div className="flex items-baseline justify-between gap-4 font-mono text-[10px] uppercase tracking-[0.14em] text-ink-3">
         <span>{question.hint}</span>
-        <span>
-          {score.right}/{score.asked}
-          {score.streak > 1 && <span className="text-accent"> · {score.streak} in a row</span>}
+        <span className="flex items-baseline gap-4">
+          <span>
+            {score.right}/{score.asked}
+            {score.streak > 1 && <span className="text-accent"> · {score.streak} in a row</span>}
+          </span>
+          <button onClick={onExit} className="uppercase tracking-[0.14em] text-accent">
+            End test
+          </button>
         </span>
       </div>
 
@@ -115,33 +122,58 @@ export function Quiz({
           const isAnswer = i === question.answerIndex;
           const isChosen = i === chosen;
 
+          // Colour alone did not distinguish "you were right" from "here is what
+          // you missed" — both highlighted the same option identically. The mark
+          // carries the verdict; colour only reinforces it.
           let tone = 'border-rule bg-surface text-ink';
-          if (answered && isAnswer) tone = 'border-accent bg-soft text-accent';
-          else if (answered && isChosen) tone = 'border-warn bg-warnsoft text-warn';
-          else if (answered) tone = 'border-rule bg-surface text-ink-3';
+          let mark = '';
+          if (answered && isAnswer) {
+            tone = 'border-ok bg-oksoft text-ok';
+            mark = '✓';
+          } else if (answered && isChosen) {
+            tone = 'border-warn bg-warnsoft text-warn';
+            mark = '✗';
+          } else if (answered) {
+            tone = 'border-rule bg-surface text-ink-3';
+          }
+
+          const serif =
+            question.kind !== 'word-to-meaning' ? 'font-serif text-[1.05rem]' : 'text-[0.9rem]';
 
           return (
             <button
               key={option + i}
               onClick={() => answer(i)}
               disabled={answered}
-              className={`rounded-lg border px-4 py-3.5 text-left leading-snug transition-colors ${tone} ${
-                question.kind === 'meaning-to-word' ||
-                question.kind === 'word-to-synonym' ||
-                question.kind === 'word-to-antonym' ||
-                question.kind === 'cloze'
-                  ? 'font-serif text-[1.05rem]'
-                  : 'text-[0.9rem]'
-              }`}
+              className={`flex items-start gap-3 rounded-lg border px-4 py-3.5 text-left leading-snug transition-colors ${tone}`}
             >
-              {option}
+              <span
+                aria-hidden="true"
+                className="w-3 flex-none pt-0.5 font-mono text-[13px] leading-snug"
+              >
+                {mark}
+              </span>
+              <span className={`min-w-0 flex-1 ${serif}`}>{option}</span>
             </button>
           );
         })}
       </div>
 
       {answered && (
-        <div className="mt-6 flex flex-wrap items-center gap-3">
+        <p
+          className={`mt-5 font-serif text-[1.15rem] leading-snug ${
+            chosen === question.answerIndex ? 'text-ok' : 'text-warn'
+          }`}
+          role="status"
+        >
+          {chosen === question.answerIndex
+            ? 'Correct.'
+            : `Not quite — it was ${question.options[question.answerIndex]}`}
+        </p>
+      )}
+
+      {answered && (
+        <div className="mt-4 flex flex-wrap items-center gap-3">
           <button
             onClick={() => advance(question.lemma)}
             className="min-h-[44px] rounded-lg bg-accent px-5 text-[14px] text-on-accent"

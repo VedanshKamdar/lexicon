@@ -168,15 +168,19 @@ export default function App() {
       cards={cards ?? []}
       onCorrect={(lemma) => void recordView(lemma)}
       onOpenWord={openWord}
+      onExit={() => navigate({ name: 'home' })}
     />
   );
 
+  // The install card scrolls with the list; the data actions do not, so they stay
+  // reachable however long the book gets.
   const listFooter = (
     <div className="px-[18px]">
       <InstallHint />
-      <BackupControls sync={syncState} onSyncNow={() => void syncNow()} />
     </div>
   );
+
+  const listActions = <BackupControls sync={syncState} onSyncNow={() => void syncNow()} />;
 
   if (isDesktop) {
     // grid-rows is as load-bearing as grid-cols here. Left implicit, the single
@@ -192,6 +196,7 @@ export default function App() {
             onLookup={openWord}
             selected={route.name === 'word' ? route.lemma : null}
             footer={listFooter}
+            pinnedFooter={listActions}
             onStartTest={() => navigate({ name: 'quiz' })}
           />
         </div>
@@ -266,6 +271,7 @@ export default function App() {
             onOpen={openWord}
             onLookup={openWord}
             footer={listFooter}
+            pinnedFooter={listActions}
             onStartTest={() => navigate({ name: 'quiz' })}
           />
         </div>

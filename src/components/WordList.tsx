@@ -75,6 +75,7 @@ export function WordList({
   onLookup,
   selected = null,
   footer,
+  pinnedFooter,
   onStartTest,
 }: {
   cards: StoredCard[];
@@ -82,6 +83,8 @@ export function WordList({
   onLookup: (word: string, encounter?: string) => void;
   selected?: string | null;
   footer?: React.ReactNode;
+  /** Stays put below the list instead of scrolling away as the deck grows. */
+  pinnedFooter?: React.ReactNode;
   onStartTest?: () => void;
 }) {
   const [query, setQuery] = useState('');
@@ -450,6 +453,8 @@ export function WordList({
           </div>
         )}
       </div>
+
+      {pinnedFooter}
     </div>
   );
 }

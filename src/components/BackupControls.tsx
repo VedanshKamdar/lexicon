@@ -53,8 +53,11 @@ export function BackupControls({
   }
 
   return (
-    <div className="mt-6 border-t border-rule pt-4">
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+    <div
+      className="flex-none border-t border-rule bg-surface px-[18px] pt-2.5"
+      style={{ paddingBottom: 'calc(0.625rem + env(safe-area-inset-bottom))' }}
+    >
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
         <button
           onClick={() => void onExport()}
           disabled={status.kind === 'busy'}
